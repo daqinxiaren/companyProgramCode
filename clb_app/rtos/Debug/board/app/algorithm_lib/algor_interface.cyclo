@@ -1,0 +1,3 @@
+algor_interface.c:22:7:algor_malloc	2
+algor_interface.c:42:6:algor_free	1
+algor_interface.c:55:6:algor_printf	1

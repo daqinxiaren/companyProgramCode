@@ -1,0 +1,6 @@
+netdev_ipaddr.c:38:5:netdev_ip4addr_aton	41
+netdev_ipaddr.c:185:7:netdev_ip4addr_ntoa_r	6
+netdev_ipaddr.c:237:7:netdev_ip4addr_ntoa	1
+netdev_ipaddr.c:251:11:netdev_ipaddr_addr	2
+netdev_ipaddr.c:554:1:netdev_inet_ntop	3
+netdev_ipaddr.c:582:1:netdev_inet_pton	2

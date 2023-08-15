@@ -1,0 +1,2 @@
+../board/device/phy/phy_reset.c:33:6:phy_reset	8	static
+../board/device/phy/phy_reset.c:42:5:phy_init	8	static

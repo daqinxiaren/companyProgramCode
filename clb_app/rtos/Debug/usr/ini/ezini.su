@@ -1,0 +1,13 @@
+../usr/ini/ezini.c:164:5:AddEntryToList	40	static
+../usr/ini/ezini.c:275:6:FreeList	16	static
+../usr/ini/ezini.c:322:5:MakeINIFile	32	static
+../usr/ini/ezini.c:399:5:AddEntryToFile	48	static
+../usr/ini/ezini.c:500:5:DeleteEntryFromFile	48	static
+../usr/ini/ezini.c:590:5:GetEntryFromFile	40	static
+../usr/ini/ezini.c:751:24:NewKeyList	24	static
+../usr/ini/ezini.c:814:28:NewSectionList	32	static
+../usr/ini/ezini.c:865:13:FreeKeyList	16	static
+../usr/ini/ezini.c:893:13:FreeEntry	16	static
+../usr/ini/ezini.c:916:14:SkipWS	24	static
+../usr/ini/ezini.c:945:14:DupStr	24	static
+../usr/ini/ezini.c:983:14:GetLine	32	static

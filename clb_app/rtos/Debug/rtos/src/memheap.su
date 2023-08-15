@@ -1,0 +1,11 @@
+../rtos/src/memheap.c:50:10:rt_memheap_init	32	static
+../rtos/src/memheap.c:124:10:rt_memheap_detach	16	static
+../rtos/src/memheap.c:138:7:rt_memheap_alloc	32	static
+../rtos/src/memheap.c:284:7:rt_memheap_realloc	56	static
+../rtos/src/memheap.c:495:6:rt_memheap_free	40	static
+../rtos/src/memheap.c:601:6:rt_system_heap_init	16	static
+../rtos/src/memheap.c:610:7:rt_malloc	40	static
+../rtos/src/memheap.c:650:6:rt_free	16	static
+../rtos/src/memheap.c:656:7:rt_realloc	32	static
+../rtos/src/memheap.c:698:7:rt_calloc	24	static
+../rtos/src/memheap.c:715:6:rt_memory_info	24	static

@@ -1,0 +1,4 @@
+fifo.c:150:29:fifo_new_element	3
+fifo.c:197:29:fifo_get_last	3
+fifo.c:255:9:fifo_insert	4
+fifo.c:310:22:fifo_remove	2

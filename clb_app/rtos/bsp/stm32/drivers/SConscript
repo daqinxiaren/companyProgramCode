@@ -1,0 +1,116 @@
+Import('RTT_ROOT')
+Import('rtconfig')
+from building import *
+
+cwd = GetCurrentDir()
+
+# add the general drivers.
+src = Split("""
+""")
+
+if GetDepend(['ENABLE_PIN']):
+    src += ['drv_gpio.c']
+
+if GetDepend(['ENABLE_SERIAL']):
+    src += ['drv_usart.c']
+
+if GetDepend(['ENABLE_HWTIMER']):
+    src += ['drv_hwtimer.c']
+
+if GetDepend(['ENABLE_PWM']):
+    src += ['drv_pwm.c']
+
+if GetDepend(['ENABLE_SPI']):
+    src += ['drv_spi.c']
+
+if GetDepend(['ENABLE_QSPI']):
+    src += ['drv_qspi.c']
+
+if GetDepend(['ENABLE_I2C', 'ENABLE_I2C_BITOPS']):
+    if GetDepend('ENABLE_I2C1') or GetDepend('ENABLE_I2C2') or GetDepend('ENABLE_I2C3') or GetDepend('ENABLE_I2C4'):
+        src += ['drv_soft_i2c.c']
+
+if GetDepend(['ENABLE_ETH', 'ENABLE_LWIP']):
+    src += ['drv_eth.c']
+
+if GetDepend(['ENABLE_ADC']):
+    src += Glob('drv_adc.c')
+
+if GetDepend(['ENABLE_DAC']):
+    src += Glob('drv_dac.c')
+
+if GetDepend(['ENABLE_CAN']):
+    src += ['drv_can.c']
+
+if GetDepend(['ENABLE_PM', 'STM32L4XX']):
+    src += ['drv_pm.c']
+    src += ['drv_lptim.c']
+
+if GetDepend('ENABLE_SDRAM'):
+    src += ['drv_sdram.c']
+
+if GetDepend('ENABLE_LCD'):
+    src += ['drv_lcd.c']
+
+if GetDepend('ENABLE_LCD_MIPI'):
+    src += ['drv_lcd_mipi.c']
+
+if GetDepend('ENABLE_ONCHIP_RTC'):
+    src += ['drv_rtc.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'STM32G0XX']):
+    src += ['drv_flash/drv_flash_g0.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'STM32F0XX']):
+    src += ['drv_flash/drv_flash_f0.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'STM32F1XX']):
+    src += ['drv_flash/drv_flash_f1.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'STM32F2XX']):
+    src += ['drv_flash/drv_flash_f2.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'STM32F4XX']):
+    src += ['drv_flash/drv_flash_f4.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'STM32F7XX']):
+    src += ['drv_flash/drv_flash_f7.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'STM32L4XX']):
+    src += ['drv_flash/drv_flash_l4.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'STM32H7XX']):
+    src += ['drv_flash/drv_flash_h7.c']
+
+if GetDepend(['ENABLE_ON_CHIP_FLASH', 'SOC_SERIES_STM32WB']):
+    src += ['drv_flash/drv_flash_wb.c']
+
+if GetDepend('ENABLE_HWCRYPTO'):
+    src += ['drv_crypto.c']
+
+if GetDepend(['ENABLE_WDT']):
+    src += ['drv_wdt.c']
+
+if GetDepend(['ENABLE_SDIO']):
+    src += ['drv_sdio.c']
+
+if GetDepend(['ENABLE_USBD']):
+    src += ['drv_usbd.c']
+
+if GetDepend(['ENABLE_PULSE_ENCODER']):
+    src += ['drv_pulse_encoder.c']
+
+if GetDepend(['ENABLE_USBH']):
+    src += ['drv_usbh.c']
+
+src += ['drv_common.c']
+
+path =  [cwd]
+path += [cwd + '/config']
+
+if GetDepend('ENABLE_ON_CHIP_FLASH'):
+    path += [cwd + '/drv_flash']
+
+group = DefineGroup('Drivers', src, depend = [''], CPPPATH = path)
+
+Return('group')

@@ -1,0 +1,8 @@
+spi_dev.c:14:18:_spi_bus_device_read	3
+spi_dev.c:28:18:_spi_bus_device_write	3
+spi_dev.c:42:17:_spi_bus_device_control	2
+spi_dev.c:70:10:rt_spi_bus_device_init	2
+spi_dev.c:96:18:_spidev_device_read	3
+spi_dev.c:110:18:_spidev_device_write	3
+spi_dev.c:124:17:_spidev_device_control	2
+spi_dev.c:151:10:rt_spidev_device_init	2

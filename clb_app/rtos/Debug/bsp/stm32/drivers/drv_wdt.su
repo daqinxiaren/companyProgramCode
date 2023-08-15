@@ -1,0 +1,3 @@
+../bsp/stm32/drivers/drv_wdt.c:30:17:wdt_init	16	static
+../bsp/stm32/drivers/drv_wdt.c:35:17:wdt_control	24	static
+../bsp/stm32/drivers/drv_wdt.c:104:5:rt_wdt_init	8	static

@@ -1,0 +1,9 @@
+../bsp/stm32/drivers/drv_rtc.c:31:18:HAL_RTCEx_BKUPRead	16	static
+../bsp/stm32/drivers/drv_rtc.c:36:14:HAL_RTCEx_BKUPWrite	24	static
+../bsp/stm32/drivers/drv_rtc.c:41:15:get_rtc_timestamp	72	static
+../bsp/stm32/drivers/drv_rtc.c:61:17:set_rtc_time_stamp	48	static
+../bsp/stm32/drivers/drv_rtc.c:104:13:rt_rtc_init	64	static
+../bsp/stm32/drivers/drv_rtc.c:162:17:rt_rtc_config	32	static
+../bsp/stm32/drivers/drv_rtc.c:233:17:rt_rtc_control	40	static
+../bsp/stm32/drivers/drv_rtc.c:271:17:rt_hw_rtc_register	24	static
+../bsp/stm32/drivers/drv_rtc.c:299:5:rt_hw_rtc_init	16	static

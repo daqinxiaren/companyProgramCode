@@ -1,0 +1,13 @@
+ringbuffer.c:17:36:rt_ringbuffer_status	3
+ringbuffer.c:29:6:rt_ringbuffer_init	3
+ringbuffer.c:49:11:rt_ringbuffer_put	5
+ringbuffer.c:98:11:rt_ringbuffer_put_force	6
+ringbuffer.c:152:11:rt_ringbuffer_get	5
+ringbuffer.c:199:11:rt_ringbuffer_peak	4
+ringbuffer.c:233:11:rt_ringbuffer_putchar	4
+ringbuffer.c:263:11:rt_ringbuffer_putchar_force	5
+ringbuffer.c:298:11:rt_ringbuffer_getchar	4
+ringbuffer.c:326:11:rt_ringbuffer_data_len	4
+ringbuffer.c:347:6:rt_ringbuffer_reset	2
+ringbuffer.c:360:23:rt_ringbuffer_create	4
+ringbuffer.c:387:6:rt_ringbuffer_destroy	2

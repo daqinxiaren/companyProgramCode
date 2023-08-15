@@ -1,0 +1,2 @@
+../board/lh/util/crc24.c:170:6:crc24_populate_msb	32	static
+../board/lh/util/crc24.c:228:10:crc24	32	static

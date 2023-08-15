@@ -1,0 +1,2 @@
+bsp_internal_flash.c:23:9:bsp_internal_flash_read	5
+bsp_internal_flash.c:43:9:bsp_internal_flash_write	6

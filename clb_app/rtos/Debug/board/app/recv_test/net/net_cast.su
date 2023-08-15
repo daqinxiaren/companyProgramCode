@@ -1,0 +1,5 @@
+../board/app/recv_test/net/net_cast.c:163:7:net_create	24	static
+../board/app/recv_test/net/net_cast.c:217:6:net_destroy	24	static
+../board/app/recv_test/net/net_cast.c:252:5:net_init	24	static
+../board/app/recv_test/net/net_cast.c:289:5:net_read	32	static
+../board/app/recv_test/net/net_cast.c:326:5:net_write	32	static

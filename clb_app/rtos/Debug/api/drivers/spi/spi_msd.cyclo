@@ -1,0 +1,17 @@
+spi_msd.c:54:17:MSD_take_owner	4
+spi_msd.c:76:18:rt_tick_timeout	5
+spi_msd.c:108:16:crc7	4
+spi_msd.c:139:17:_send_cmd	12
+spi_msd.c:272:17:_wait_token	3
+spi_msd.c:306:17:_wait_ready	3
+spi_msd.c:339:17:_read_block	2
+spi_msd.c:380:17:_write_block	2
+spi_msd.c:462:17:rt_msd_init	66
+spi_msd.c:1202:17:rt_msd_open	1
+spi_msd.c:1208:17:rt_msd_close	1
+spi_msd.c:1214:18:rt_msd_read	11
+spi_msd.c:1290:18:rt_msd_sdhc_read	11
+spi_msd.c:1366:18:rt_msd_write	16
+spi_msd.c:1486:18:rt_msd_sdhc_write	15
+spi_msd.c:1600:17:rt_msd_control	4
+spi_msd.c:1621:10:msd_init	2

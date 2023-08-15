@@ -1,0 +1,9 @@
+app_paras_save.c:38:6:app_paras_net_printf	1
+app_paras_save.c:61:9:app_paras_ip_check	4
+app_paras_save.c:78:9:app_paras_gateway_check	4
+app_paras_save.c:95:9:app_paras_mask_check	3
+app_paras_save.c:112:9:app_paras_write	1
+app_paras_save.c:135:6:app_paras_check	9
+app_paras_save.c:183:6:app_paras_upload	4
+app_paras_save.c:225:9:app_paras_update	1
+app_paras_save.c:238:6:app_paras_save_init	9

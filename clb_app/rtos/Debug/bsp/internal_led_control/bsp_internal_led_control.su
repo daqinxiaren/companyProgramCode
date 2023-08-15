@@ -1,0 +1,4 @@
+../bsp/internal_led_control/bsp_internal_led_control.c:26:6:bsp_internal_led_contol	16	static
+../bsp/internal_led_control/bsp_internal_led_control.c:58:6:bsp_internal_led_init	16	static
+../bsp/internal_led_control/bsp_internal_led_control.c:118:6:bsp_internal_led_on	16	static
+../bsp/internal_led_control/bsp_internal_led_control.c:130:6:bsp_internal_led_off	16	static

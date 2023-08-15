@@ -1,0 +1,12 @@
+dfs.c:51:5:dfs_init	2
+dfs.c:99:6:dfs_lock	3
+dfs.c:119:6:dfs_unlock	1
+dfs.c:124:12:fd_alloc	11
+dfs.c:178:5:fd_new	2
+dfs.c:217:16:fd_get	5
+dfs.c:254:6:fd_put	5
+dfs.c:291:5:fd_is_open	11
+dfs.c:351:13:dfs_subdir	4
+dfs.c:377:7:dfs_normalize_path	27
+dfs.c:505:21:dfs_fdtable_get	1
+dfs.c:525:5:list_fd	11

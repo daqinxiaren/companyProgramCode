@@ -1,0 +1,14 @@
+msh_file.c:19:12:msh_readline	8
+msh_file.c:59:5:msh_exec_script	17
+msh_file.c:149:5:cmd_ls	2
+msh_file.c:170:5:cmd_cp	2
+msh_file.c:188:5:cmd_mv	9
+msh_file.c:247:5:cmd_cat	3
+msh_file.c:268:13:directory_delete_for_msh	16
+msh_file.c:332:5:cmd_rm	19
+msh_file.c:398:5:cmd_cd	4
+msh_file.c:416:5:cmd_pwd	1
+msh_file.c:424:5:cmd_mkdir	2
+msh_file.c:440:5:cmd_mkfs	5
+msh_file.c:473:5:cmd_df	4
+msh_file.c:495:5:cmd_echo	4

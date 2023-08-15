@@ -1,0 +1,8 @@
+finsh_node.c:19:5:finsh_node_init	1
+finsh_node.c:26:20:finsh_node_allocate	4
+finsh_node.c:45:20:finsh_node_new_id	10
+finsh_node.c:106:20:finsh_node_new_char	2
+finsh_node.c:121:20:finsh_node_new_int	2
+finsh_node.c:136:20:finsh_node_new_long	2
+finsh_node.c:151:20:finsh_node_new_string	2
+finsh_node.c:170:20:finsh_node_new_ptr	2

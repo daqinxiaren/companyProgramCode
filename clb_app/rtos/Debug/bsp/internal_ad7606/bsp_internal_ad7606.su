@@ -1,0 +1,5 @@
+../bsp/internal_ad7606/bsp_internal_ad7606.c:82:16:bsp_internal_ad7606_convst	16	static
+../bsp/internal_ad7606/bsp_internal_ad7606.c:94:9:bsp_internal_ad7606_read	24	static
+../bsp/internal_ad7606/bsp_internal_ad7606.c:117:9:bsp_internal_ad7606_reset	16	static
+../bsp/internal_ad7606/bsp_internal_ad7606.c:132:9:bsp_internal_ad7606_remove	16	static
+../bsp/internal_ad7606/bsp_internal_ad7606.c:145:9:bsp_internal_ad7606_init	24	static

@@ -1,0 +1,10 @@
+rt_drv_pwm.c:17:17:_pwm_control	2
+rt_drv_pwm.c:36:18:_pwm_read	3
+rt_drv_pwm.c:64:18:_pwm_write	4
+rt_drv_pwm.c:105:10:rt_device_pwm_register	1
+rt_drv_pwm.c:131:10:rt_pwm_enable	2
+rt_drv_pwm.c:147:10:rt_pwm_disable	2
+rt_drv_pwm.c:163:10:rt_pwm_set	2
+rt_drv_pwm.c:188:12:pwm_enable	3
+rt_drv_pwm.c:214:12:pwm_disable	3
+rt_drv_pwm.c:240:12:pwm_set	3

@@ -1,0 +1,4 @@
+switch_init.c:153:6:adg1608_init	2
+switch_init.c:191:6:adg1608_switch	11
+switch_init.c:295:6:adg1609_init	2
+switch_init.c:331:6:adg1609_switch	7

@@ -1,0 +1,14 @@
+../rtos/src/device.c:49:10:rt_device_register	24	static
+../rtos/src/device.c:80:10:rt_device_unregister	16	static
+../rtos/src/device.c:100:10:rt_device_init_all	4	static
+../rtos/src/device.c:112:13:rt_device_find	16	static
+../rtos/src/device.c:127:13:rt_device_create	24	static
+../rtos/src/device.c:153:6:rt_device_destroy	16	static
+../rtos/src/device.c:174:10:rt_device_init	24	static
+../rtos/src/device.c:209:10:rt_device_open	24	static
+../rtos/src/device.c:274:10:rt_device_close	24	static
+../rtos/src/device.c:315:11:rt_device_read	32	static
+../rtos/src/device.c:354:11:rt_device_write	32	static
+../rtos/src/device.c:390:10:rt_device_control	24	static
+../rtos/src/device.c:415:1:rt_device_set_rx_indicate	16	static
+../rtos/src/device.c:437:1:rt_device_set_tx_complete	16	static

@@ -1,0 +1,2 @@
+../board/device/flash/spi_flash_probe.c:177:12:hw_spi_flash_init	16	static
+../board/device/flash/spi_flash_probe.c:193:6:mount_spi_flash_fs	32	static

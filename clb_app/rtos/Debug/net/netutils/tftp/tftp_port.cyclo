@@ -1,0 +1,7 @@
+tftp_port.c:25:15:tftp_file_open	3
+tftp_port.c:48:13:tftp_file_write	1
+tftp_port.c:55:13:tftp_file_read	1
+tftp_port.c:62:14:tftp_file_close	1
+tftp_port.c:69:13:tftp_server_thread	1
+tftp_port.c:113:13:_tftp_help	2
+tftp_port.c:128:12:_tftp_msh	30

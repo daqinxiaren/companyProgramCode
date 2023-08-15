@@ -1,0 +1,7 @@
+../board/lh/itc/itc.c:212:10:up_sem_init	24	static
+../board/lh/itc/itc.c:250:10:up_sem_get	4	static
+../board/lh/itc/itc.c:280:6:up_list_head_init	16	static
+../board/lh/itc/itc.c:309:18:up_list_head_get	4	static
+../board/lh/itc/itc.c:338:18:up_list_create	16	static
+../board/lh/itc/itc.c:370:6:up_list_insert_of_end	24	static
+../board/lh/itc/itc.c:409:6:itc_init	16	static

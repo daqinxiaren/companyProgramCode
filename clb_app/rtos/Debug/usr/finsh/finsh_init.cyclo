@@ -1,0 +1,4 @@
+finsh_init.c:19:5:finsh_init	1
+finsh_init.c:32:6:finsh_stack_bottom	1
+finsh_init.c:37:5:finsh_flush	1
+finsh_init.c:48:5:finsh_reset	1

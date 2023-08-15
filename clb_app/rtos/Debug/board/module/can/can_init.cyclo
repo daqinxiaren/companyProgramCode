@@ -1,0 +1,9 @@
+can_init.c:159:13:can_deal_data_init	7
+can_init.c:202:17:can1_rx_call	1
+can_init.c:212:17:can2_rx_call	1
+can_init.c:223:13:can1_rx_thread	3
+can_init.c:278:13:can2_rx_thread	3
+can_init.c:356:5:can_rx_thread_init	7
+can_init.c:429:5:can_dev_reset	7
+can_init.c:526:13:protocol_deal	30
+can_init.c:757:6:can_send_data	18

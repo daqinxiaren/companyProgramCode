@@ -1,0 +1,2 @@
+../board/app/algorithm_lib/IIR_polygon.c:9:7:IIR_polygon	72	static
+../board/app/algorithm_lib/IIR_polygon.c:65:7:IIR_filter_polygon	40	static

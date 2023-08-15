@@ -1,0 +1,5 @@
+net_xfer.c:164:12:net_xfer_create	3
+net_xfer.c:224:6:net_xfer_destroy	1
+net_xfer.c:259:5:net_xfer_type_set	48
+net_xfer.c:466:5:net_write_data	2
+net_xfer.c:509:5:net_recv_data	2

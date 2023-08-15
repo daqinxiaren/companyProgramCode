@@ -1,0 +1,5 @@
+app_utility.c:64:9:check_xor_sum	2
+app_utility.c:83:9:hex_compare	3
+app_utility.c:103:9:non_empty	4
+app_utility.c:126:10:modbus_crc	2
+app_utility.c:146:10:sum_check_16	2

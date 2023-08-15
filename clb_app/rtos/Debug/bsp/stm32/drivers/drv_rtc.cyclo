@@ -1,0 +1,9 @@
+drv_rtc.c:31:18:HAL_RTCEx_BKUPRead	1
+drv_rtc.c:36:14:HAL_RTCEx_BKUPWrite	1
+drv_rtc.c:41:15:get_rtc_timestamp	1
+drv_rtc.c:61:17:set_rtc_time_stamp	4
+drv_rtc.c:104:13:rt_rtc_init	1
+drv_rtc.c:162:17:rt_rtc_config	3
+drv_rtc.c:233:17:rt_rtc_control	5
+drv_rtc.c:271:17:rt_hw_rtc_register	3
+drv_rtc.c:299:5:rt_hw_rtc_init	2

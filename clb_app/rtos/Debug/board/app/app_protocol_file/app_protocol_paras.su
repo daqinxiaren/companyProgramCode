@@ -1,0 +1,9 @@
+E:/Program/STM32CubeIDE/clb_app/rtos/board/app/app_paras_save/app_paras_save.h:69:24:app_paras_get	4	static
+../board/app/app_protocol_file/app_protocol_paras.c:53:13:app_set_local_time	16	static
+../board/app/app_protocol_file/app_protocol_paras.c:69:13:app_get_local_time	32	static
+../board/app/app_protocol_file/app_protocol_paras.c:102:12:app_time_msg_valid_deal	40	static
+../board/app/app_protocol_file/app_protocol_paras.c:151:12:set_config_file	144	static
+../board/app/app_protocol_file/app_protocol_paras.c:173:12:read_config_file	144	static
+../board/app/app_protocol_file/app_protocol_paras.c:195:5:clb_reboot_deal	16	static
+../board/app/app_protocol_file/app_protocol_paras.c:217:6:udp_para_ack	88	dynamic
+../board/app/app_protocol_file/app_protocol_paras.c:255:6:app_protocol_paras_ptu_data	128	static

@@ -1,0 +1,2 @@
+../board/device/sram/drv_sram.c:27:12:rt_hw_sram_init	40	static
+../board/device/sram/drv_sram.c:93:12:sram_test	24	static

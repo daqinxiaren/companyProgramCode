@@ -1,0 +1,2 @@
+front_device_inform.c:27:13:front_temp_init	1
+front_device_inform.c:317:13:copy_temp_to_sendbuff	6

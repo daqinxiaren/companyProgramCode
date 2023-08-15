@@ -1,0 +1,4 @@
+../bsp/stm32/drivers/drv_clk.c:195:6:system_clock_config	96	static
+../bsp/stm32/drivers/drv_clk.c:297:6:SystemClock_Config	104	static
+../bsp/stm32/drivers/drv_clk.c:422:5:clock_information	4	static
+../bsp/stm32/drivers/drv_clk.c:457:6:clk_init	24	static

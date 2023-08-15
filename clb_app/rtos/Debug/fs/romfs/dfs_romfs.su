@@ -1,0 +1,12 @@
+../fs/romfs/dfs_romfs.c:19:5:dfs_romfs_mount	32	static
+../fs/romfs/dfs_romfs.c:32:5:dfs_romfs_unmount	16	static
+../fs/romfs/dfs_romfs.c:37:5:dfs_romfs_ioctl	24	static
+../fs/romfs/dfs_romfs.c:42:15:check_dirent	16	static
+../fs/romfs/dfs_romfs.c:50:22:dfs_romfs_lookup	48	static
+../fs/romfs/dfs_romfs.c:133:5:dfs_romfs_read	32	static
+../fs/romfs/dfs_romfs.c:160:5:dfs_romfs_lseek	16	static
+../fs/romfs/dfs_romfs.c:171:5:dfs_romfs_close	16	static
+../fs/romfs/dfs_romfs.c:177:5:dfs_romfs_open	32	static
+../fs/romfs/dfs_romfs.c:217:5:dfs_romfs_stat	40	static
+../fs/romfs/dfs_romfs.c:245:5:dfs_romfs_getdents	56	static
+../fs/romfs/dfs_romfs.c:317:5:dfs_romfs_init	8	static

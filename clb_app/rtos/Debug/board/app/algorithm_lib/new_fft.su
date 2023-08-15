@@ -1,0 +1,3 @@
+../board/app/algorithm_lib/new_fft.c:21:7:new_fft	48	static
+../board/app/algorithm_lib/new_fft.c:93:6:fft_diag_init	8	static
+../board/app/algorithm_lib/new_fft.c:124:6:fft_diag_destroy	8	static

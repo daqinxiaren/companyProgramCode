@@ -1,0 +1,6 @@
+finsh_var.c:18:5:finsh_var_init	1
+finsh_var.c:25:5:finsh_var_insert	6
+finsh_var.c:53:5:finsh_var_delete	4
+finsh_var.c:71:19:finsh_var_lookup	4
+finsh_var.c:88:6:finsh_sysvar_append	3
+finsh_var.c:114:22:finsh_sysvar_lookup	5

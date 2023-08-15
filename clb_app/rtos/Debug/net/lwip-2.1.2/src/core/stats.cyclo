@@ -1,0 +1,7 @@
+stats.c:53:1:stats_init	1
+stats.c:64:1:stats_display_proto	1
+stats.c:83:1:stats_display_igmp	1
+stats.c:105:1:stats_display_mem	1
+stats.c:116:1:stats_display_memp	2
+stats.c:127:1:stats_display_sys	1
+stats.c:143:1:stats_display	2

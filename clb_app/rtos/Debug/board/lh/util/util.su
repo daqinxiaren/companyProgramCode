@@ -1,0 +1,17 @@
+../board/lh/util/util.c:166:10:find_first_set_bit	24	static
+../board/lh/util/util.c:213:10:find_last_set_bit	24	static
+../board/lh/util/util.c:261:10:find_closest	40	static
+../board/lh/util/util.c:308:10:field_prep	16	static
+../board/lh/util/util.c:343:10:field_get	24	static
+../board/lh/util/util.c:378:9:log_base_2	16	static
+../board/lh/util/util.c:413:10:greatest_common_divisor	24	static
+../board/lh/util/util.c:466:6:rational_best_approximation	32	static
+../board/lh/util/util.c:519:10:hweight8	24	static
+../board/lh/util/util.c:565:10:do_div	32	static
+../board/lh/util/util.c:604:10:div64_u64_rem	24	static
+../board/lh/util/util.c:640:10:div_u64_rem	32	static
+../board/lh/util/util.c:677:10:div_u64	32	static
+../board/lh/util/util.c:711:9:str_to_int32	24	static
+../board/lh/util/util.c:754:10:srt_to_uint32	24	static
+../board/lh/util/util.c:798:6:bubble_sort	32	static
+../board/lh/util/util.c:816:10:sum_check_u16	24	static

@@ -1,0 +1,8 @@
+rtservice.h:86:16:rt_list_remove	1
+idle.c:72:10:rt_thread_idle_sethook	3
+idle.c:104:10:rt_thread_idle_delhook	3
+idle.c:131:15:_has_defunct_thread	1
+idle.c:149:6:rt_thread_idle_excute	3
+idle.c:187:13:rt_thread_idle_entry	3
+idle.c:227:6:rt_thread_idle_init	2
+idle.c:257:13:rt_thread_idle_gethandler	1

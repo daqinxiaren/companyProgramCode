@@ -1,0 +1,6 @@
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:47:16:rt_list_init	16	static
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:73:16:rt_list_insert_before	16	static
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:98:15:rt_list_isempty	16	static
+../api/api/src/completion.c:18:6:rt_completion_init	24	static
+../api/api/src/completion.c:30:10:rt_completion_wait	32	static
+../api/api/src/completion.c:97:6:rt_completion_done	24	static

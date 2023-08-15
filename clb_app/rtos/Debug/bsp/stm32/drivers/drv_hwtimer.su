@@ -1,0 +1,9 @@
+../bsp/stm32/drivers/drv_hwtimer.c:159:13:pclkx_doubler_get	40	static
+../bsp/stm32/drivers/drv_hwtimer.c:195:13:timer_init	40	static
+../bsp/stm32/drivers/drv_hwtimer.c:269:17:timer_start	32	static
+../bsp/stm32/drivers/drv_hwtimer.c:303:13:timer_stop	24	static
+../bsp/stm32/drivers/drv_hwtimer.c:318:17:timer_ctrl	48	static
+../bsp/stm32/drivers/drv_hwtimer.c:377:20:timer_counter_get	24	static
+../bsp/stm32/drivers/drv_hwtimer.c:400:6:TIM2_IRQHandler	8	static
+../bsp/stm32/drivers/drv_hwtimer.c:512:6:HAL_TIM_PeriodElapsedCallback	16	static
+../bsp/stm32/drivers/drv_hwtimer.c:576:12:stm32_hwtimer_init	16	static

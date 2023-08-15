@@ -1,0 +1,13 @@
+../net/netutils/tftp/tftp_server.c:57:12:tftp_server_select	56	static
+../net/netutils/tftp/tftp_server.c:96:33:tftp_client_xfer_get	24	static
+../net/netutils/tftp/tftp_server.c:108:33:tftp_client_xfer_add	24	static
+../net/netutils/tftp/tftp_server.c:127:13:tftp_client_xfer_delete	24	static
+../net/netutils/tftp/tftp_server.c:144:13:tftp_client_xfer_destroy	16	static
+../net/netutils/tftp/tftp_server.c:154:13:tftp_server_send_file	40	static
+../net/netutils/tftp/tftp_server.c:195:13:tftp_server_send_ack	24	static
+../net/netutils/tftp/tftp_server.c:221:13:tftp_server_transf_handle	32	static
+../net/netutils/tftp/tftp_server.c:333:33:tftp_server_request_handle	64	static
+../net/netutils/tftp/tftp_server.c:443:6:tftp_server_run	40	static
+../net/netutils/tftp/tftp_server.c:541:21:tftp_server_create	32	static
+../net/netutils/tftp/tftp_server.c:577:6:tftp_server_write_set	16	static
+../net/netutils/tftp/tftp_server.c:585:6:tftp_server_destroy	16	static

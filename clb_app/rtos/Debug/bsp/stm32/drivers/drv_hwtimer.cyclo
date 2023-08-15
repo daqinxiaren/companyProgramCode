@@ -1,0 +1,9 @@
+drv_hwtimer.c:159:13:pclkx_doubler_get	5
+drv_hwtimer.c:195:13:timer_init	8
+drv_hwtimer.c:269:17:timer_start	4
+drv_hwtimer.c:303:13:timer_stop	2
+drv_hwtimer.c:318:17:timer_ctrl	7
+drv_hwtimer.c:377:20:timer_counter_get	2
+drv_hwtimer.c:400:6:TIM2_IRQHandler	1
+drv_hwtimer.c:512:6:HAL_TIM_PeriodElapsedCallback	2
+drv_hwtimer.c:576:12:stm32_hwtimer_init	3

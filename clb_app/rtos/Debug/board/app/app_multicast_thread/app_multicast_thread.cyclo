@@ -1,0 +1,10 @@
+app_multicast_thread.c:29:13:print_current_time	1
+app_multicast_thread.c:46:6:app_multicast_send	2
+app_multicast_thread.c:65:13:multicast_send_thread_entry	3
+app_multicast_thread.c:99:13:app_multicast_send_thread_create	2
+app_multicast_thread.c:119:13:app_multicast_send_thread_init	1
+app_multicast_thread.c:130:13:multicast_recv_thread_entry	7
+app_multicast_thread.c:202:13:app_multicast_recv_thread_create	2
+app_multicast_thread.c:220:13:app_multicast_recv_thread_init	2
+app_multicast_thread.c:236:6:app_multicast_thread_create	1
+app_multicast_thread.c:248:6:app_multicast_thread_init	1

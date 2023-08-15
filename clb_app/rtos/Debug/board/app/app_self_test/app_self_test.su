@@ -1,0 +1,3 @@
+../board/app/app_self_test/app_self_test.c:30:18:app_get_self_test_para	4	static
+../board/app/app_self_test/app_self_test.c:41:6:app_self_test_power	24	static
+../board/app/app_self_test/app_self_test.c:106:6:app_self_test_init	8	static

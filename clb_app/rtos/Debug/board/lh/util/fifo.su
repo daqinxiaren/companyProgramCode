@@ -1,0 +1,4 @@
+../board/lh/util/fifo.c:150:29:fifo_new_element	24	static
+../board/lh/util/fifo.c:197:29:fifo_get_last	16	static
+../board/lh/util/fifo.c:255:9:fifo_insert	32	static
+../board/lh/util/fifo.c:310:22:fifo_remove	24	static

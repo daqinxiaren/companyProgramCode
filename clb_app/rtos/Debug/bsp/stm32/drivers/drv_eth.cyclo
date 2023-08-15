@@ -1,0 +1,14 @@
+drv_eth.c:84:17:rt_stm32_eth_init	3
+drv_eth.c:140:17:rt_stm32_eth_open	1
+drv_eth.c:146:17:rt_stm32_eth_close	1
+drv_eth.c:152:18:rt_stm32_eth_read	1
+drv_eth.c:159:18:rt_stm32_eth_write	1
+drv_eth.c:166:17:rt_stm32_eth_control	3
+drv_eth.c:185:10:rt_stm32_eth_tx	8
+drv_eth.c:281:14:rt_stm32_eth_rx	8
+drv_eth.c:374:6:ETH_IRQHandler	1
+drv_eth.c:385:6:HAL_ETH_RxCpltCallback	2
+drv_eth.c:393:6:HAL_ETH_ErrorCallback	1
+drv_eth.c:404:13:phy_linkchange	8
+drv_eth.c:484:13:phy_monitor_thread_entry	8
+drv_eth.c:545:12:rt_hw_stm32_eth_init	12

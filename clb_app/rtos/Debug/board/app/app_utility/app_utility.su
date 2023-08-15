@@ -1,0 +1,5 @@
+../board/app/app_utility/app_utility.c:64:9:check_xor_sum	40	static
+../board/app/app_utility/app_utility.c:83:9:hex_compare	32	static
+../board/app/app_utility/app_utility.c:103:9:non_empty	32	static
+../board/app/app_utility/app_utility.c:126:10:modbus_crc	24	static
+../board/app/app_utility/app_utility.c:146:10:sum_check_16	24	static

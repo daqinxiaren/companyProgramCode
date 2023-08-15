@@ -1,0 +1,2 @@
+../board/app/recv_test/multi_recv.c:161:13:multicast_recv_thread_entry	16	static
+../board/app/recv_test/multi_recv.c:235:6:multicast_recv_init	24	static

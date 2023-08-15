@@ -1,0 +1,13 @@
+time.c:39:5:__isleap	4
+time.h:79:12:gmtime_r	8
+time.h:63:12:gmtime	1
+time.h:81:12:localtime_r	1
+time.h:64:12:localtime	1
+time.h:58:11:mktime	13
+time.c:175:13:num2str	1
+time.h:76:9:asctime_r	2
+time.h:61:9:asctime	1
+time.h:62:9:ctime	1
+time.c:215:5:gettimeofday	3
+time.h:59:11:time	5
+time.h:56:12:clock	1

@@ -1,0 +1,9 @@
+hwtimer.c:17:23:timeout_calc	7
+hwtimer.c:75:17:rt_hwtimer_init	4
+hwtimer.c:106:17:rt_hwtimer_open	2
+hwtimer.c:124:17:rt_hwtimer_close	2
+hwtimer.c:145:18:rt_hwtimer_read	3
+hwtimer.c:177:18:rt_hwtimer_write	7
+hwtimer.c:205:17:rt_hwtimer_control	15
+hwtimer.c:299:6:rt_device_hwtimer_isr	7
+hwtimer.c:341:10:rt_device_hwtimer_register	4

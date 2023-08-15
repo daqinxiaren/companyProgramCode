@@ -1,0 +1,14 @@
+../usr/finsh/finsh_token.c:55:6:finsh_token_init	16	static
+../usr/finsh/finsh_token.c:62:23:finsh_token_token	16	static
+../usr/finsh/finsh_token.c:70:6:finsh_token_get_token	16	static
+../usr/finsh/finsh_token.c:75:5:token_get_string	24	static
+../usr/finsh/finsh_token.c:108:13:token_next_char	24	static
+../usr/finsh/finsh_token.c:122:13:token_prev_char	16	static
+../usr/finsh/finsh_token.c:130:13:token_run	24	static
+../usr/finsh/finsh_token.c:296:12:token_match_name	24	static
+../usr/finsh/finsh_token.c:312:13:token_trim_space	24	static
+../usr/finsh/finsh_token.c:322:13:token_proc_char	32	static
+../usr/finsh/finsh_token.c:366:17:token_proc_string	24	static
+../usr/finsh/finsh_token.c:395:12:token_proc_escape	24	static
+../usr/finsh/finsh_token.c:459:13:token_proc_number	160	static
+../usr/finsh/finsh_token.c:549:13:token_spec_number	64	static

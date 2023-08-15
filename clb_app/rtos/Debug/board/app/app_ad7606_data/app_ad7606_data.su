@@ -1,0 +1,7 @@
+../board/app/app_ad7606_data/app_ad7606_data.c:38:27:app_ad7606_data_getbuff	4	static
+../board/app/app_ad7606_data/app_ad7606_data.c:48:19:app_ad7606_event_get	4	static
+../board/app/app_ad7606_data/app_ad7606_data.c:58:17:complement_to_source	16	static
+../board/app/app_ad7606_data/app_ad7606_data.c:71:10:ad_complementary_to_original	24	static
+../board/app/app_ad7606_data/app_ad7606_data.c:95:6:app_ad7606_data_get	40	static
+../board/app/app_ad7606_data/app_ad7606_data.c:139:6:app_ad7606_fill_data	8	static
+../board/app/app_ad7606_data/app_ad7606_data.c:157:6:app_ad7606_data_init	24	static

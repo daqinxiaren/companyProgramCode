@@ -1,0 +1,2 @@
+fs_init.c:142:6:mnt_romfs	2
+fs_init.c:244:12:fs_init	1

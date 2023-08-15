@@ -1,0 +1,4 @@
+initial_pro.c:23:6:fft_diag_ZXZC_Wheel_init	3
+initial_pro.c:48:6:fft_diag_DJ_init	3
+initial_pro.c:73:6:fft_diag_gear_init	1
+initial_pro.c:88:6:fft_diag_CLX_init	3

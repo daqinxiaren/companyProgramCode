@@ -1,0 +1,5 @@
+net_cast.c:163:7:net_create	3
+net_cast.c:217:6:net_destroy	1
+net_cast.c:252:5:net_init	1
+net_cast.c:289:5:net_read	1
+net_cast.c:326:5:net_write	1

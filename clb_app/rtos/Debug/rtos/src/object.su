@@ -1,0 +1,17 @@
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:58:16:rt_list_insert_after	16	static
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:86:16:rt_list_remove	16	static
+../rtos/src/object.c:127:6:rt_object_attach_sethook	16	static
+../rtos/src/object.c:138:6:rt_object_detach_sethook	16	static
+../rtos/src/object.c:156:6:rt_object_trytake_sethook	16	static
+../rtos/src/object.c:175:6:rt_object_take_sethook	16	static
+../rtos/src/object.c:186:6:rt_object_put_sethook	16	static
+../rtos/src/object.c:209:1:rt_object_get_information	24	static
+../rtos/src/object.c:227:5:rt_object_get_length	32	static
+../rtos/src/object.c:260:5:rt_object_get_pointers	48	static
+../rtos/src/object.c:299:6:rt_object_init	48	static
+../rtos/src/object.c:368:6:rt_object_detach	24	static
+../rtos/src/object.c:399:13:rt_object_allocate	40	static
+../rtos/src/object.c:465:6:rt_object_delete	24	static
+../rtos/src/object.c:501:11:rt_object_is_systemobject	16	static
+../rtos/src/object.c:520:12:rt_object_get_type	16	static
+../rtos/src/object.c:540:13:rt_object_find	32	static

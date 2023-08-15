@@ -1,0 +1,7 @@
+../bsp/stm32/drivers/drv_spi.c:80:17:stm32_spi_init	24	static
+../bsp/stm32/drivers/drv_spi.c:268:20:spixfer	64	static
+../bsp/stm32/drivers/drv_spi.c:387:17:spi_configure	24	static
+../bsp/stm32/drivers/drv_spi.c:405:12:rt_hw_spi_bus_init	24	static
+../bsp/stm32/drivers/drv_spi.c:510:10:rt_hw_spi_device_attach	56	static
+../bsp/stm32/drivers/drv_spi.c:830:13:stm32_get_dma_info	4	static
+../bsp/stm32/drivers/drv_spi.c:923:5:rt_hw_spi_init	8	static

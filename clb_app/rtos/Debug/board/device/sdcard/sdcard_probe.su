@@ -1,0 +1,2 @@
+../board/device/sdcard/sdcard_probe.c:123:6:sd_mount	32	static
+../board/device/sdcard/sdcard_probe.c:195:6:mount_sdcard_fs	24	static

@@ -1,0 +1,5 @@
+../board/app/recv_test/net/net_xfer.c:164:12:net_xfer_create	32	static
+../board/app/recv_test/net/net_xfer.c:224:6:net_xfer_destroy	24	static
+../board/app/recv_test/net/net_xfer.c:259:5:net_xfer_type_set	40	static
+../board/app/recv_test/net/net_xfer.c:466:5:net_write_data	40	static
+../board/app/recv_test/net/net_xfer.c:509:5:net_recv_data	48	static

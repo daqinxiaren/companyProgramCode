@@ -1,0 +1,5 @@
+bearing.c:185:26:bearing_create	3
+bearing.c:231:5:bearing_init	3
+bearing.c:277:5:bearing_set	13
+bearing.c:362:6:bearing	5
+bearing.c:424:6:bearing_destroy	2

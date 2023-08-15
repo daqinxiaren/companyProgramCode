@@ -1,0 +1,9 @@
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:99:1:close_handle	8	static
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:119:1:send_error	48	static
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:140:1:send_ack	32	static
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:158:1:resend_data	16	static
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:175:1:send_data	24	static
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:205:1:recv	328	static
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:368:1:tftp_tmr	16	static
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:397:1:tftp_init	24	static
+../net/lwip-2.1.2/src/apps/tftp/tftp_server.c:428:6:tftp_cleanup	8	static

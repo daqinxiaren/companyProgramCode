@@ -1,0 +1,12 @@
+../net/netutils/telnet/telnet.c:90:13:send_to_client	56	static
+../net/netutils/telnet/telnet.c:113:13:send_option_to_client	24	static
+../net/netutils/telnet/telnet.c:130:13:process_rx	32	static
+../net/netutils/telnet/telnet.c:223:13:client_close	16	static
+../net/netutils/telnet/telnet.c:247:17:telnet_init	16	static
+../net/netutils/telnet/telnet.c:252:17:telnet_open	16	static
+../net/netutils/telnet/telnet.c:257:17:telnet_close	16	static
+../net/netutils/telnet/telnet.c:262:18:telnet_read	32	static
+../net/netutils/telnet/telnet.c:285:18:telnet_write	32	static
+../net/netutils/telnet/telnet.c:310:17:telnet_control	24	static
+../net/netutils/telnet/telnet.c:326:13:telnet_thread	112	static
+../net/netutils/telnet/telnet.c:444:6:telnet_server	32	static

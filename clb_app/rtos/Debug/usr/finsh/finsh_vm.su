@@ -1,0 +1,3 @@
+../usr/finsh/finsh_vm.c:28:6:finsh_vm_run	16	static
+../usr/finsh/finsh_vm.c:56:6:finsh_syscall_append	24	static
+../usr/finsh/finsh_vm.c:81:23:finsh_syscall_lookup	32	static

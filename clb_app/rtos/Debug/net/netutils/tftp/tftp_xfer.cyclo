@@ -1,0 +1,13 @@
+tftp_xfer.c:31:12:tftp_recv_raw_data	2
+tftp_xfer.c:47:6:tftp_transfer_err	3
+tftp_xfer.c:74:5:tftp_resp_ack	2
+tftp_xfer.c:93:5:tftp_wait_ack	10
+tftp_xfer.c:132:5:tftp_read_data	10
+tftp_xfer.c:177:5:tftp_write_data	2
+tftp_xfer.c:195:5:tftp_send_request	5
+tftp_xfer.c:233:19:tftp_recv_request	8
+tftp_xfer.c:277:5:tftp_xfer_type_set	8
+tftp_xfer.c:325:6:tftp_xfer_mode_set	2
+tftp_xfer.c:334:5:tftp_xfer_blksize_set	3
+tftp_xfer.c:345:19:tftp_xfer_create	3
+tftp_xfer.c:386:6:tftp_xfer_destroy	1

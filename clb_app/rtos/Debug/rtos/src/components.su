@@ -1,0 +1,10 @@
+../rtos/src/components.c:56:12:rti_start	4	static
+../rtos/src/components.c:62:12:rti_board_start	4	static
+../rtos/src/components.c:68:12:rti_board_end	4	static
+../rtos/src/components.c:74:12:rti_end	4	static
+../rtos/src/components.c:83:6:rt_components_board_init	16	static
+../rtos/src/components.c:107:6:rt_components_init	16	static
+../rtos/src/components.c:158:5:entry	8	static
+../rtos/src/components.c:173:6:main_thread_entry	16	static
+../rtos/src/components.c:193:6:rt_application_init	24	static
+../rtos/src/components.c:216:5:rtthread_startup	8	static

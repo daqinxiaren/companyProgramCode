@@ -1,0 +1,10 @@
+dfs_fs.c:32:5:dfs_register	7
+dfs_fs.c:79:24:dfs_filesystem_lookup	10
+dfs_fs.c:124:13:dfs_filesystem_get_mounted_path	4
+dfs_fs.c:157:5:dfs_filesystem_get_partition	8
+dfs_fs.c:215:5:dfs_mount	23
+dfs_fs.c:364:5:dfs_unmount	10
+dfs_fs.c:429:5:dfs_mkfs	8
+dfs_fs.c:483:5:dfs_statfs	3
+dfs_fs.c:610:6:mkfs	1
+dfs_fs.c:616:5:df	8

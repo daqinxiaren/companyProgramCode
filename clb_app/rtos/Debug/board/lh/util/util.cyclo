@@ -1,0 +1,17 @@
+util.c:166:10:find_first_set_bit	3
+util.c:213:10:find_last_set_bit	3
+util.c:261:10:find_closest	3
+util.c:308:10:field_prep	1
+util.c:343:10:field_get	1
+util.c:378:9:log_base_2	1
+util.c:413:10:greatest_common_divisor	7
+util.c:466:6:rational_best_approximation	3
+util.c:519:10:hweight8	3
+util.c:565:10:do_div	1
+util.c:604:10:div64_u64_rem	1
+util.c:640:10:div_u64_rem	1
+util.c:677:10:div_u64	1
+util.c:711:9:str_to_int32	2
+util.c:754:10:srt_to_uint32	2
+util.c:798:6:bubble_sort	4
+util.c:816:10:sum_check_u16	2

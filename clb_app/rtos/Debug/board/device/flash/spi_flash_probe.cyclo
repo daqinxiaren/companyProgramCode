@@ -1,0 +1,2 @@
+spi_flash_probe.c:177:12:hw_spi_flash_init	2
+spi_flash_probe.c:193:6:mount_spi_flash_fs	5

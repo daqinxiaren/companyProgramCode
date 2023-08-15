@@ -1,0 +1,10 @@
+../fs/devfs/devfs.c:29:5:dfs_device_fs_mount	24	static
+../fs/devfs/devfs.c:34:5:dfs_device_fs_ioctl	32	static
+../fs/devfs/devfs.c:53:5:dfs_device_fs_read	32	static
+../fs/devfs/devfs.c:71:5:dfs_device_fs_write	32	static
+../fs/devfs/devfs.c:89:5:dfs_device_fs_close	32	static
+../fs/devfs/devfs.c:124:5:dfs_device_fs_open	48	static
+../fs/devfs/devfs.c:213:5:dfs_device_fs_stat	32	static
+../fs/devfs/devfs.c:261:5:dfs_device_fs_getdents	40	static
+../fs/devfs/devfs.c:293:12:dfs_device_fs_poll	24	static
+../fs/devfs/devfs.c:329:5:devfs_init	8	static

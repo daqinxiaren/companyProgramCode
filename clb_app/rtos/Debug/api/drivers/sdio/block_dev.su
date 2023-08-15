@@ -1,0 +1,14 @@
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:58:16:rt_list_insert_after	16	static
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:86:16:rt_list_remove	16	static
+../api/drivers/sdio/block_dev.c:44:12:mmcsd_num_wr_blocks	128	static
+../api/drivers/sdio/block_dev.c:105:17:rt_mmcsd_req_blk	200	static
+../api/drivers/sdio/block_dev.c:207:17:rt_mmcsd_init	16	static
+../api/drivers/sdio/block_dev.c:212:17:rt_mmcsd_open	16	static
+../api/drivers/sdio/block_dev.c:217:17:rt_mmcsd_close	16	static
+../api/drivers/sdio/block_dev.c:222:17:rt_mmcsd_control	32	static
+../api/drivers/sdio/block_dev.c:236:18:rt_mmcsd_read	64	static
+../api/drivers/sdio/block_dev.c:277:18:rt_mmcsd_write	64	static
+../api/drivers/sdio/block_dev.c:319:19:mmcsd_set_blksize	64	static
+../api/drivers/sdio/block_dev.c:357:12:rt_mmcsd_blk_probe	56	static
+../api/drivers/sdio/block_dev.c:496:6:rt_mmcsd_blk_remove	32	static
+../api/drivers/sdio/block_dev.c:527:5:rt_mmcsd_blk_init	4	static

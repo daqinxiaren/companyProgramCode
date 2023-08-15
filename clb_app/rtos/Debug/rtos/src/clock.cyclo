@@ -1,0 +1,5 @@
+clock.c:39:11:rt_tick_get	1
+clock.c:49:6:rt_tick_set	1
+clock.c:62:6:rt_tick_increase	2
+clock.c:101:11:rt_tick_from_millisecond	2
+clock.c:125:19:rt_tick_get_millisecond	1

@@ -1,0 +1,9 @@
+tftp_server.c:99:1:close_handle	3
+tftp_server.c:119:1:send_error	2
+tftp_server.c:140:1:send_ack	2
+tftp_server.c:158:1:resend_data	3
+tftp_server.c:175:1:send_data	4
+tftp_server.c:205:1:recv	27
+tftp_server.c:368:1:tftp_tmr	5
+tftp_server.c:397:1:tftp_init	3
+tftp_server.c:428:6:tftp_cleanup	2

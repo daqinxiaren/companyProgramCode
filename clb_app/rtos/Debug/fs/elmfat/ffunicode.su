@@ -1,0 +1,3 @@
+../fs/elmfat/ffunicode.c:15224:7:ff_uni2oem	24	static
+../fs/elmfat/ffunicode.c:15246:7:ff_oem2uni	24	static
+../fs/elmfat/ffunicode.c:15466:7:ff_wtoupper	32	static

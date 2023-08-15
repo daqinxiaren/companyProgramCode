@@ -1,0 +1,6 @@
+../net/netdev/src/netdev_ipaddr.c:38:5:netdev_ip4addr_aton	48	static
+../net/netdev/src/netdev_ipaddr.c:185:7:netdev_ip4addr_ntoa_r	56	static
+../net/netdev/src/netdev_ipaddr.c:237:7:netdev_ip4addr_ntoa	16	static
+../net/netdev/src/netdev_ipaddr.c:251:11:netdev_ipaddr_addr	24	static
+../net/netdev/src/netdev_ipaddr.c:554:1:netdev_inet_ntop	32	static
+../net/netdev/src/netdev_ipaddr.c:582:1:netdev_inet_pton	32	static

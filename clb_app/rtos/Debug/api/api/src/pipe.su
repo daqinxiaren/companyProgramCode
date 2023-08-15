@@ -1,0 +1,9 @@
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:47:16:rt_list_init	16	static
+E:/Program/STM32CubeIDE/clb_app/rtos/api/api/include/ipc/waitqueue.h:35:16:rt_wqueue_init	16	static
+../api/api/src/pipe.c:323:11:rt_pipe_open	24	static
+../api/api/src/pipe.c:351:11:rt_pipe_close	24	static
+../api/api/src/pipe.c:369:11:rt_pipe_read	40	static
+../api/api/src/pipe.c:397:11:rt_pipe_write	40	static
+../api/api/src/pipe.c:425:11:rt_pipe_control	24	static
+../api/api/src/pipe.c:442:12:rt_pipe_create	24	static
+../api/api/src/pipe.c:487:5:rt_pipe_delete	32	static

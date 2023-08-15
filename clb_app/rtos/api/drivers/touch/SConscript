@@ -1,0 +1,11 @@
+# SConscript for touch framework 
+
+from building import *
+
+cwd = GetCurrentDir()
+src = ['touch.c']
+CPPPATH = [cwd, cwd + '/../include']
+
+group = DefineGroup('DeviceDrivers', src, depend = ['ENABLE_TOUCH', 'ENABLE_DEVICE'], CPPPATH = CPPPATH)
+
+Return('group')

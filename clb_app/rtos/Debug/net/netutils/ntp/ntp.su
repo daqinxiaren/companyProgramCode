@@ -1,0 +1,6 @@
+../net/netutils/ntp/ntp.c:120:12:sendto_ntp_server	48	static
+../net/netutils/ntp/ntp.c:160:8:ntp_get_time	232	static
+../net/netutils/ntp/ntp.c:341:8:ntp_get_local_time	32	static
+../net/netutils/ntp/ntp.c:362:8:ntp_sync_to_rtc	32	static
+../net/netutils/ntp/ntp.c:386:13:ntp_sync	24	static
+../net/netutils/ntp/ntp.c:403:13:cmd_ntp_sync	24	static

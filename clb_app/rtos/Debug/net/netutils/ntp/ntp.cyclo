@@ -1,0 +1,6 @@
+ntp.c:120:12:sendto_ntp_server	2
+ntp.c:160:8:ntp_get_time	18
+ntp.c:341:8:ntp_get_local_time	2
+ntp.c:362:8:ntp_sync_to_rtc	2
+ntp.c:386:13:ntp_sync	2
+ntp.c:403:13:cmd_ntp_sync	2

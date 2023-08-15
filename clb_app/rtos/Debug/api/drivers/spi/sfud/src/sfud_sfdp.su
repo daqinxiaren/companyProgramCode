@@ -1,0 +1,6 @@
+../api/drivers/spi/sfud/src/sfud_sfdp.c:80:6:sfud_read_sfdp	24	static
+../api/drivers/spi/sfud/src/sfud_sfdp.c:100:13:read_sfdp_header	32	static
+../api/drivers/spi/sfud/src/sfud_sfdp.c:144:13:read_basic_header	32	static
+../api/drivers/spi/sfud/src/sfud_sfdp.c:187:13:read_basic_table	80	static
+../api/drivers/spi/sfud/src/sfud_sfdp.c:337:17:read_sfdp_data	48	static
+../api/drivers/spi/sfud/src/sfud_sfdp.c:363:8:sfud_sfdp_get_suitable_eraser	32	static

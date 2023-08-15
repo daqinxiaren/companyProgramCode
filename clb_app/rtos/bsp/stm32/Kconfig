@@ -1,0 +1,67 @@
+config SOC_FAMILY_STM32
+    bool
+
+config STM32F0XX
+    bool
+    select ARCH_ARM_CORTEX_M0
+    select SOC_FAMILY_STM32
+
+config STM32F1XX
+    bool
+    select ARCH_ARM_CORTEX_M3
+    select SOC_FAMILY_STM32
+
+config STM32F2XX
+    bool
+    select ARCH_ARM_CORTEX_M3
+    select SOC_FAMILY_STM32
+
+config STM32F4XX
+    bool
+    select ARCH_ARM_CORTEX_M4
+    select SOC_FAMILY_STM32
+
+config STM32F7XX
+    bool
+    select ARCH_ARM_CORTEX_M7
+    select SOC_FAMILY_STM32
+    
+config STM32L0XX
+    bool
+    select ARCH_ARM_CORTEX_M0
+    select SOC_FAMILY_STM32
+    
+config STM32L1XX
+    bool
+    select ARCH_ARM_CORTEX_M3
+    select SOC_FAMILY_STM32
+    
+config STM32L4XX
+    bool
+    select ARCH_ARM_CORTEX_M4
+    select SOC_FAMILY_STM32
+
+config STM32G0XX
+    bool
+    select ARCH_ARM_CORTEX_M0
+    select SOC_FAMILY_STM32
+
+config STM32G4XX
+    bool
+    select ARCH_ARM_CORTEX_M4
+    select SOC_FAMILY_STM32
+
+config STM32H7XX
+    bool
+    select ARCH_ARM_CORTEX_M7
+    select SOC_FAMILY_STM32
+
+config SOC_SERIES_STM32MP1
+    bool
+    select ARCH_ARM_CORTEX_M4
+    select SOC_FAMILY_STM32
+
+config SOC_SERIES_STM32WB
+    bool
+    select ARCH_ARM_CORTEX_M4
+    select SOC_FAMILY_STM32

@@ -1,0 +1,29 @@
+from building import *
+
+cwd = GetCurrentDir()
+src = [] 
+CPPPATH = [cwd + '/../include']
+group = []
+
+if GetDepend(['ENABLE_PIN']):
+    src = src + ['pin.c']
+    
+if GetDepend(['ENABLE_ADC']):
+    src = src + ['adc.c']
+    
+if GetDepend(['ENABLE_DAC']):
+    src = src + ['dac.c']
+
+if GetDepend(['ENABLE_PWM']):
+    src = src + ['rt_drv_pwm.c']
+    
+if GetDepend(['ENABLE_PULSE_ENCODER']):
+    src = src + ['pulse_encoder.c']
+
+if GetDepend(['ENABLE_INPUT_CAPTURE']):
+    src = src + ['rt_inputcapture.c']
+
+if len(src):
+    group = DefineGroup('DeviceDrivers', src, depend = [''], CPPPATH = CPPPATH)
+
+Return('group')

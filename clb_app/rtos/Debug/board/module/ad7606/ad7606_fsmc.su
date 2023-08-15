@@ -1,0 +1,5 @@
+../board/module/ad7606/ad7606_fsmc.c:229:9:ad7606_read	24	static
+../board/module/ad7606/ad7606_fsmc.c:285:9:ad7606_convst	16	static
+../board/module/ad7606/ad7606_fsmc.c:322:9:ad7606_reset	16	static
+../board/module/ad7606/ad7606_fsmc.c:367:9:ad7606_init	24	static
+../board/module/ad7606/ad7606_fsmc.c:428:9:ad7606_remove	16	static

@@ -1,0 +1,4 @@
+../api/drivers/rtc/rtc.c:42:10:set_date	88	static
+../api/drivers/rtc/rtc.c:92:10:set_time	88	static
+../api/drivers/rtc/rtc.c:177:6:list_date	16	static
+../api/drivers/rtc/rtc.c:190:13:date	32	static

@@ -1,0 +1,10 @@
+app_paras_save.h:69:24:app_paras_get	1
+app_singlecast_thread.c:40:6:app_scast_send_setaddr	1
+app_singlecast_thread.c:52:6:app_singlecast_send	2
+app_singlecast_thread.c:69:13:app_singlecast_send_thread_create	1
+app_singlecast_thread.c:80:13:app_singlecast_send_thread_init	1
+app_singlecast_thread.c:94:13:singlecast_recv_thread_entry	6
+app_singlecast_thread.c:150:13:app_singlecast_recv_thread_create	2
+app_singlecast_thread.c:170:13:app_singlecast_recv_thread_init	2
+app_singlecast_thread.c:195:6:app_singlecast_thread_create	1
+app_singlecast_thread.c:207:6:app_singlecast_thread_init	1

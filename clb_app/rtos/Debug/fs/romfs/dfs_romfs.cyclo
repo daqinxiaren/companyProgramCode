@@ -1,0 +1,12 @@
+dfs_romfs.c:19:5:dfs_romfs_mount	2
+dfs_romfs.c:32:5:dfs_romfs_unmount	1
+dfs_romfs.c:37:5:dfs_romfs_ioctl	1
+dfs_romfs.c:42:15:check_dirent	4
+dfs_romfs.c:50:22:dfs_romfs_lookup	21
+dfs_romfs.c:133:5:dfs_romfs_read	5
+dfs_romfs.c:160:5:dfs_romfs_lseek	2
+dfs_romfs.c:171:5:dfs_romfs_close	1
+dfs_romfs.c:177:5:dfs_romfs_open	7
+dfs_romfs.c:217:5:dfs_romfs_stat	3
+dfs_romfs.c:245:5:dfs_romfs_getdents	7
+dfs_romfs.c:317:5:dfs_romfs_init	1

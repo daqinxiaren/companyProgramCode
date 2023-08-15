@@ -1,0 +1,9 @@
+../api/drivers/hwtimer/hwtimer.c:17:23:timeout_calc	48	static
+../api/drivers/hwtimer/hwtimer.c:75:17:rt_hwtimer_init	24	static
+../api/drivers/hwtimer/hwtimer.c:106:17:rt_hwtimer_open	24	static
+../api/drivers/hwtimer/hwtimer.c:124:17:rt_hwtimer_close	24	static
+../api/drivers/hwtimer/hwtimer.c:145:18:rt_hwtimer_read	56	static
+../api/drivers/hwtimer/hwtimer.c:177:18:rt_hwtimer_write	40	static
+../api/drivers/hwtimer/hwtimer.c:205:17:rt_hwtimer_control	48	static
+../api/drivers/hwtimer/hwtimer.c:299:6:rt_device_hwtimer_isr	16	static
+../api/drivers/hwtimer/hwtimer.c:341:10:rt_device_hwtimer_register	32	static

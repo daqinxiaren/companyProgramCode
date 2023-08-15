@@ -1,0 +1,4 @@
+../usr/finsh/finsh_init.c:19:5:finsh_init	16	static
+../usr/finsh/finsh_init.c:32:6:finsh_stack_bottom	4	static
+../usr/finsh/finsh_init.c:37:5:finsh_flush	16	static
+../usr/finsh/finsh_init.c:48:5:finsh_reset	16	static

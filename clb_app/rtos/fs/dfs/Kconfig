@@ -1,0 +1,193 @@
+menu "Device virtual file system"
+
+config ENABLE_DFS
+    bool "Using device virtual file system"
+    select ENABLE_MUTEX
+    default y
+    help
+        The device file system is a light weight virtual file system.
+
+if ENABLE_DFS
+    config DFS_ENABLE_WORKDIR
+        bool "Using working directory"
+        default y
+
+    config DFS_FILESYSTEMS_MAX
+        int "The maximal number of mounted file system"
+        default 4 if ENABLE_DFS_NFS
+        default 2
+
+    config DFS_FILESYSTEM_TYPES_MAX
+        int "The maximal number of file system type"
+        default 4 if ENABLE_DFS_NFS
+        default 2
+
+    config DFS_FD_MAX
+        int "The maximal number of opened files"
+        default 16
+
+    config ENABLE_DFS_MNTTABLE
+        bool "Using mount table for file system"
+        default n
+        help
+            User can use mount table for automatically mount, for example:
+                const struct dfs_mount_tbl mount_table[] =
+                {
+                    {"flash0", "/", "elm", 0, 0},
+                    {0}
+                };
+            The mount_table must be terminated with NULL.
+
+    config ENABLE_DFS_ELMFAT
+        bool "Enable elm-chan fatfs"
+        default n
+        help
+            FatFs is a generic FAT/exFAT file system module for small embedded systems.
+
+    if ENABLE_DFS_ELMFAT
+        menu "elm-chan's FatFs, Generic FAT Filesystem Module"
+        config DFS_ELM_CODE_PAGE
+            int "OEM code page"
+            default 437
+
+        config DFS_ELM_WORD_ACCESS
+            bool "Using DFS_ELM_WORD_ACCESS"
+            default y
+
+        choice
+            prompt "Support long file name"
+            default DFS_ELM_USE_LFN_3
+
+            config DFS_ELM_USE_LFN_0
+                bool "0: LFN disable"
+
+            config DFS_ELM_USE_LFN_1
+                bool "1: LFN with static LFN working buffer"
+
+            config DFS_ELM_USE_LFN_2
+                bool "2: LFN with dynamic LFN working buffer on the stack"
+
+            config DFS_ELM_USE_LFN_3
+                bool "3: LFN with dynamic LFN working buffer on the heap"
+        endchoice
+
+        config DFS_ELM_USE_LFN
+            int
+            default 0 if DFS_ELM_USE_LFN_0
+            default 1 if DFS_ELM_USE_LFN_1
+            default 2 if DFS_ELM_USE_LFN_2
+            default 3 if DFS_ELM_USE_LFN_3
+
+        choice
+            prompt "Support unicode for long file name"
+            default DFS_ELM_LFN_UNICODE_0
+
+            config DFS_ELM_LFN_UNICODE_0
+                bool "0: ANSI/OEM in current CP (TCHAR = char)"
+
+            config DFS_ELM_LFN_UNICODE_1
+                bool "1: Unicode in UTF-16 (TCHAR = WCHAR)"
+
+            config DFS_ELM_LFN_UNICODE_2
+                bool "2: Unicode in UTF-8 (TCHAR = char)"
+
+            config DFS_ELM_LFN_UNICODE_3
+                bool "3: Unicode in UTF-32 (TCHAR = DWORD)"
+        endchoice
+
+        config DFS_ELM_LFN_UNICODE
+            int
+            default 0 if DFS_ELM_LFN_UNICODE_0
+            default 1 if DFS_ELM_LFN_UNICODE_1
+            default 2 if DFS_ELM_LFN_UNICODE_2
+            default 3 if DFS_ELM_LFN_UNICODE_3
+
+        config DFS_ELM_MAX_LFN
+            int "Maximal size of file name length"
+            range 12 255
+            default 255
+
+        config DFS_ELM_DRIVES
+            int "Number of volumes (logical drives) to be used."
+            default 2
+
+        config DFS_ELM_MAX_SECTOR_SIZE
+            int "Maximum sector size to be handled."
+            default 512
+            help
+                if you use some spi nor flash for fatfs, please set this the erase sector size, for example 4096.
+
+        config DFS_ELM_USE_ERASE
+            bool "Enable sector erase feature"
+            default n
+
+        config DFS_ELM_REENTRANT
+            bool "Enable the reentrancy (thread safe) of the FatFs module"
+            default y
+        endmenu
+    endif
+
+    config ENABLE_DFS_DEVFS
+        bool "Using devfs for device objects"
+        default y
+
+    config ENABLE_DFS_ROMFS
+        bool "Enable ReadOnly file system on flash"
+        default n
+
+    config ENABLE_DFS_RAMFS
+        bool "Enable RAM file system"
+        select ENABLE_MEMHEAP
+        default n
+
+    config ENABLE_DFS_UFFS
+        bool "Enable UFFS file system: Ultra-low-cost Flash File System"
+        select ENABLE_MTD_NAND
+        default n
+
+    if ENABLE_DFS_UFFS
+        choice
+            prompt "UFFS ECC mode"
+            default UFFS_ECC_MODE_1
+
+            config UFFS_ECC_MODE_0
+                bool "0: Do not use ECC"
+
+            config UFFS_ECC_MODE_1
+                bool "1: UFFS calculate the ECC"
+
+            config UFFS_ECC_MODE_2
+                bool "2: Flash driver(or by hardware) calculate the ECC"
+
+            config UFFS_ECC_MODE_3
+                bool "3: Hardware calculate the ECC and automatically write to spare."
+        endchoice
+
+        config UFFS_ECC_MODE
+            int
+            default 0 if UFFS_ECC_MODE_0
+            default 1 if UFFS_ECC_MODE_1
+            default 2 if UFFS_ECC_MODE_2
+            default 3 if UFFS_ECC_MODE_3
+
+    endif
+
+    config ENABLE_DFS_JFFS2
+        bool "Enable JFFS2 file system"
+        select ENABLE_MTD_NOR
+        default n
+
+    config ENABLE_DFS_NFS
+        bool "Using NFS v3 client file system"
+        depends on ENABLE_LWIP
+        default n
+
+    if ENABLE_DFS_NFS
+        config DEV_NFS_HOST_EXPORT
+            string "NFSv3 host export"
+            default "192.168.1.5:/"
+    endif
+
+endif
+
+endmenu

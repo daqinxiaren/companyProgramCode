@@ -1,0 +1,17 @@
+../Drivers/CMSIS/Include/core_cm4.h:1724:22:__NVIC_DisableIRQ	16	static,ignoring_inline_asm
+../bsp/stm32/drivers/drv_can.c:96:20:get_can_baud_index	24	static
+../bsp/stm32/drivers/drv_can.c:110:17:_can_config	24	static
+../bsp/stm32/drivers/drv_can.c:162:17:_can_control	48	static
+../bsp/stm32/drivers/drv_can.c:388:12:_can_sendmsg	64	static
+../bsp/stm32/drivers/drv_can.c:496:12:_can_recvmsg	64	static
+../bsp/stm32/drivers/drv_can.c:558:13:_can_rx_isr	24	static
+../bsp/stm32/drivers/drv_can.c:615:6:CAN1_TX_IRQHandler	16	static
+../bsp/stm32/drivers/drv_can.c:665:6:CAN1_RX0_IRQHandler	8	static
+../bsp/stm32/drivers/drv_can.c:675:6:CAN1_RX1_IRQHandler	8	static
+../bsp/stm32/drivers/drv_can.c:685:6:CAN1_SCE_IRQHandler	16	static
+../bsp/stm32/drivers/drv_can.c:735:6:CAN2_TX_IRQHandler	16	static
+../bsp/stm32/drivers/drv_can.c:785:6:CAN2_RX0_IRQHandler	8	static
+../bsp/stm32/drivers/drv_can.c:795:6:CAN2_RX1_IRQHandler	8	static
+../bsp/stm32/drivers/drv_can.c:805:6:CAN2_SCE_IRQHandler	16	static
+../bsp/stm32/drivers/drv_can.c:857:6:HAL_CAN_ErrorCallback	16	static
+../bsp/stm32/drivers/drv_can.c:873:5:rt_hw_can_init	80	static

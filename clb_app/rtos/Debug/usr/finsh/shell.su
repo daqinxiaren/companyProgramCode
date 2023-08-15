@@ -1,0 +1,17 @@
+../usr/finsh/shell.c:78:5:finsh_set_prompt	16	static
+../usr/finsh/shell.c:104:13:finsh_get_prompt	16	static
+../usr/finsh/shell.c:146:13:finsh_get_prompt_mode	8	static
+../usr/finsh/shell.c:161:6:finsh_set_prompt_mode	16	static
+../usr/finsh/shell.c:167:12:finsh_getchar	16	static
+../usr/finsh/shell.c:188:17:finsh_rx_ind	16	static
+../usr/finsh/shell.c:205:6:finsh_set_device	24	static
+../usr/finsh/shell.c:246:13:finsh_get_device	8	static
+../usr/finsh/shell.c:262:6:finsh_set_echo	16	static
+../usr/finsh/shell.c:275:13:finsh_get_echo	8	static
+../usr/finsh/shell.c:373:13:shell_auto_complete	16	static
+../usr/finsh/shell.c:441:18:shell_handle_history	16	static
+../usr/finsh/shell.c:458:13:shell_push_history	24	static
+../usr/finsh/shell.c:500:6:finsh_thread_entry	40	static
+../usr/finsh/shell.c:763:6:finsh_system_function_init	16	static
+../usr/finsh/shell.c:769:6:finsh_system_var_init	16	static
+../usr/finsh/shell.c:814:5:finsh_system_init	24	static

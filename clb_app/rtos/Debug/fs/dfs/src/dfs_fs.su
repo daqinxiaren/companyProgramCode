@@ -1,0 +1,10 @@
+../fs/dfs/src/dfs_fs.c:32:5:dfs_register	32	static
+../fs/dfs/src/dfs_fs.c:79:24:dfs_filesystem_lookup	32	static
+../fs/dfs/src/dfs_fs.c:124:13:dfs_filesystem_get_mounted_path	24	static
+../fs/dfs/src/dfs_fs.c:157:5:dfs_filesystem_get_partition	40	static
+../fs/dfs/src/dfs_fs.c:215:5:dfs_mount	80	static
+../fs/dfs/src/dfs_fs.c:364:5:dfs_unmount	32	static
+../fs/dfs/src/dfs_fs.c:429:5:dfs_mkfs	32	static
+../fs/dfs/src/dfs_fs.c:483:5:dfs_statfs	24	static
+../fs/dfs/src/dfs_fs.c:610:6:mkfs	16	static
+../fs/dfs/src/dfs_fs.c:616:5:df	168	static

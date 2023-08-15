@@ -1,0 +1,7 @@
+../bsp/stm32/drivers/drv_pwm.c:165:17:drv_pwm_enable	32	static
+../bsp/stm32/drivers/drv_pwm.c:182:17:drv_pwm_get	64	static
+../bsp/stm32/drivers/drv_pwm.c:228:17:drv_pwm_set	112	static
+../bsp/stm32/drivers/drv_pwm.c:289:17:drv_pwm_control	32	static
+../bsp/stm32/drivers/drv_pwm.c:309:17:stm32_hw_pwm_init	80	static
+../bsp/stm32/drivers/drv_pwm.c:412:13:pwm_get_channel	16	static
+../bsp/stm32/drivers/drv_pwm.c:531:12:stm32_pwm_init	16	static

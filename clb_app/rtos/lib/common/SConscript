@@ -1,0 +1,22 @@
+from building import *
+
+Import('rtconfig')
+
+src   = []
+cwd   = GetCurrentDir()
+group = []
+CPPPATH = [cwd]
+
+if GetDepend('ENABLE_LIBC'):
+        src += Glob('*.c')      
+else:
+        if GetDepend('LIBC_ENABLE_TIME') and not GetDepend('ENABLE_MINILIBC'):
+                src += ['time.c']
+
+if GetDepend('ENABLE_POSIX') == False:
+        SrcRemove(src, ['unistd.c'])
+
+if not GetDepend('ENABLE_MINILIBC') and (GetDepend('ENABLE_LIBC') or GetDepend('LIBC_ENABLE_TIME')):
+	group = DefineGroup('libc', src, depend = [''], CPPPATH = CPPPATH)
+
+Return('group')

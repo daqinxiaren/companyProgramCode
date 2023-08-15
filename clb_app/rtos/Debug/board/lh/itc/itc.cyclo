@@ -1,0 +1,7 @@
+itc.c:212:10:up_sem_init	2
+itc.c:250:10:up_sem_get	1
+itc.c:280:6:up_list_head_init	1
+itc.c:309:18:up_list_head_get	1
+itc.c:338:18:up_list_create	1
+itc.c:370:6:up_list_insert_of_end	2
+itc.c:409:6:itc_init	1

@@ -1,0 +1,39 @@
+Import('RTT_ROOT')
+Import('rtconfig')
+from building import *
+
+src = Glob('*.c')
+
+CPPPATH = [RTT_ROOT + '/include']
+
+if GetDepend('ENABLE_MODULE') == False:
+    SrcRemove(src, ['module.c'])
+
+if GetDepend('ENABLE_MEMORY_HEAP') == False or GetDepend('ENABLE_SMALL_MEMORY') == False:
+    SrcRemove(src, ['mem.c'])
+
+if GetDepend('ENABLE_MEMORY_HEAP') == False or GetDepend('ENABLE_SLAB') == False:
+    SrcRemove(src, ['slab.c'])
+
+if GetDepend('ENABLE_MEMORY_POOL') == False:
+    SrcRemove(src, ['mempool.c'])
+
+if GetDepend('ENABLE_MEMHEAP') == False:
+    SrcRemove(src, ['memheap.c'])
+    if GetDepend('ENABLE_MEMHEAP_AS_HEAP'):
+        SrcRemove(src, ['mem.c'])
+
+if GetDepend('ENABLE_USERHEAP'):
+    SrcRemove(src, ['mem.c', 'slab.c'])
+
+if GetDepend('ENABLE_DEVICE') == False:
+    SrcRemove(src, ['device.c'])
+
+if GetDepend('ENABLE_SMP') == False:
+    SrcRemove(src, ['cpu.c'])
+
+CPPDEFINES = ['__RTTHREAD__']
+
+group = DefineGroup('Kernel', src, depend = [''], CPPPATH = CPPPATH, CPPDEFINES = CPPDEFINES)
+
+Return('group')

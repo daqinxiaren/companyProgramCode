@@ -1,0 +1,4 @@
+../usr/finsh/finsh_error.c:33:5:finsh_error_init	4	static
+../usr/finsh/finsh_error.c:40:5:finsh_error_set	16	static
+../usr/finsh/finsh_error.c:47:9:finsh_errno	4	static
+../usr/finsh/finsh_error.c:52:13:finsh_error_string	16	static

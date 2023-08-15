@@ -1,0 +1,7 @@
+drv_spi.c:80:17:stm32_spi_init	21
+drv_spi.c:268:20:spixfer	22
+drv_spi.c:387:17:spi_configure	3
+drv_spi.c:405:12:rt_hw_spi_bus_init	5
+drv_spi.c:510:10:rt_hw_spi_device_attach	7
+drv_spi.c:830:13:stm32_get_dma_info	1
+drv_spi.c:923:5:rt_hw_spi_init	1

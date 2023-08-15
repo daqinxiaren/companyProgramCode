@@ -1,0 +1,3 @@
+finsh_compiler.c:24:12:finsh_compile	119
+finsh_compiler.c:740:12:finsh_type_check	30
+finsh_compiler.c:884:5:finsh_compiler_run	3

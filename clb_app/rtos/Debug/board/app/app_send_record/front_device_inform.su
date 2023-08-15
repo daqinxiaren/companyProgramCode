@@ -1,0 +1,2 @@
+../board/app/app_send_record/front_device_inform.c:27:13:front_temp_init	4	static
+../board/app/app_send_record/front_device_inform.c:317:13:copy_temp_to_sendbuff	24	static

@@ -1,0 +1,7 @@
+drv_pwm.c:165:17:drv_pwm_enable	2
+drv_pwm.c:182:17:drv_pwm_get	9
+drv_pwm.c:228:17:drv_pwm_set	10
+drv_pwm.c:289:17:drv_pwm_control	5
+drv_pwm.c:309:17:stm32_hw_pwm_init	13
+drv_pwm.c:412:13:pwm_get_channel	1
+drv_pwm.c:531:12:stm32_pwm_init	4

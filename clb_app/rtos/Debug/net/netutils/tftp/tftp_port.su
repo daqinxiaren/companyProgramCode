@@ -1,0 +1,7 @@
+../net/netutils/tftp/tftp_port.c:25:15:tftp_file_open	32	static
+../net/netutils/tftp/tftp_port.c:48:13:tftp_file_write	32	static
+../net/netutils/tftp/tftp_port.c:55:13:tftp_file_read	32	static
+../net/netutils/tftp/tftp_port.c:62:14:tftp_file_close	16	static
+../net/netutils/tftp/tftp_port.c:69:13:tftp_server_thread	16	static
+../net/netutils/tftp/tftp_port.c:113:13:_tftp_help	16	static
+../net/netutils/tftp/tftp_port.c:128:12:_tftp_msh	72	static

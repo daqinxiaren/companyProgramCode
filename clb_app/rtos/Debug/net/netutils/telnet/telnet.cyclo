@@ -1,0 +1,12 @@
+telnet.c:90:13:send_to_client	2
+telnet.c:113:13:send_option_to_client	1
+telnet.c:130:13:process_rx	15
+telnet.c:223:13:client_close	1
+telnet.c:247:17:telnet_init	1
+telnet.c:252:17:telnet_open	1
+telnet.c:257:17:telnet_close	1
+telnet.c:262:18:telnet_read	2
+telnet.c:285:18:telnet_write	4
+telnet.c:310:17:telnet_control	1
+telnet.c:326:13:telnet_thread	6
+telnet.c:444:6:telnet_server	6

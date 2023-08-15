@@ -1,0 +1,13 @@
+../board/module/can/can_app.c:149:17:app_can_qzq_get_id	4	static
+../board/module/can/can_app.c:159:6:app_can_qzq_clean_id	8	static
+../board/module/can/can_app.c:169:6:config_qzq_id	32	static
+../board/module/can/can_app.c:182:6:proximitor_data_init	16	static
+../board/module/can/can_app.c:215:6:can_init	8	static
+../board/module/can/can_app.c:253:6:printf_proximitor_data	24	static
+../board/module/can/can_app.c:293:6:rx_deal	24	static
+../board/module/can/can_app.c:391:6:can_lh_send	32	static
+../board/module/can/can_app.c:439:13:can_lh_cmd	32	static
+../board/module/can/can_app.c:475:6:can_lh_send_reset	32	static
+../board/module/can/can_app.c:510:6:can_lh_send_set_dev_id	32	static
+../board/module/can/can_app.c:524:6:send_radio_getid	24	static
+../board/module/can/can_app.c:531:6:proximitor_cmd	64	static

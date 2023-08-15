@@ -1,0 +1,8 @@
+E:/Program/STM32CubeIDE/clb_app/rtos/rtos/include/rtservice.h:86:16:rt_list_remove	16	static
+../rtos/src/idle.c:72:10:rt_thread_idle_sethook	32	static
+../rtos/src/idle.c:104:10:rt_thread_idle_delhook	32	static
+../rtos/src/idle.c:131:15:_has_defunct_thread	16	static
+../rtos/src/idle.c:149:6:rt_thread_idle_excute	24	static
+../rtos/src/idle.c:187:13:rt_thread_idle_entry	24	static
+../rtos/src/idle.c:227:6:rt_thread_idle_init	40	static
+../rtos/src/idle.c:257:13:rt_thread_idle_gethandler	8	static

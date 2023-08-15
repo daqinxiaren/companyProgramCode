@@ -1,0 +1,12 @@
+mmcsd_host.h:110:16:mmcsd_delay_ms	2
+mmc.c:45:23:GET_BITS	3
+mmc.c:65:19:mmcsd_parse_csd	3
+mmc.c:116:12:mmc_get_ext_csd	5
+mmc.c:183:12:mmc_parse_ext_csd	3
+mmc.c:214:12:mmc_switch	2
+mmc.c:233:12:mmc_compare_ext_csds	31
+mmc.c:290:12:mmc_select_bus_width	14
+mmc.c:364:10:mmc_send_op_cond	10
+mmc.c:406:17:mmc_set_card_addr	2
+mmc.c:424:19:mmcsd_mmc_init_card	18
+mmc.c:541:12:init_mmc	6

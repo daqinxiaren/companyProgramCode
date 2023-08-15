@@ -1,0 +1,6 @@
+tftp_client.c:36:12:tftp_client_select	5
+tftp_client.c:56:21:tftp_client_create	3
+tftp_client.c:87:6:tftp_client_destroy	1
+tftp_client.c:98:5:tftp_client_push	21
+tftp_client.c:240:5:tftp_client_pull	22
+tftp_client.c:394:5:tftp_client_err	1

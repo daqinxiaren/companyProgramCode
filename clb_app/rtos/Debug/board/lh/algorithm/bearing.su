@@ -1,0 +1,5 @@
+../board/lh/algorithm/bearing.c:185:26:bearing_create	16	static
+../board/lh/algorithm/bearing.c:231:5:bearing_init	24	static
+../board/lh/algorithm/bearing.c:277:5:bearing_set	32	static
+../board/lh/algorithm/bearing.c:362:6:bearing	56	static
+../board/lh/algorithm/bearing.c:424:6:bearing_destroy	16	static

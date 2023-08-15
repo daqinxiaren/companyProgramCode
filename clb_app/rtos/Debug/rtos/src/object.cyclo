@@ -1,0 +1,17 @@
+rtservice.h:58:16:rt_list_insert_after	1
+rtservice.h:86:16:rt_list_remove	1
+object.c:127:6:rt_object_attach_sethook	1
+object.c:138:6:rt_object_detach_sethook	1
+object.c:156:6:rt_object_trytake_sethook	1
+object.c:175:6:rt_object_take_sethook	1
+object.c:186:6:rt_object_put_sethook	1
+object.c:209:1:rt_object_get_information	3
+object.c:227:5:rt_object_get_length	3
+object.c:260:5:rt_object_get_pointers	5
+object.c:299:6:rt_object_init	6
+object.c:368:6:rt_object_detach	3
+object.c:399:13:rt_object_allocate	5
+object.c:465:6:rt_object_delete	4
+object.c:501:11:rt_object_is_systemobject	3
+object.c:520:12:rt_object_get_type	2
+object.c:540:13:rt_object_find	6

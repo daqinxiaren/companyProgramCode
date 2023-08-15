@@ -1,0 +1,16 @@
+spi.h:257:21:rt_spi_recv	1
+spi.h:264:21:rt_spi_send	1
+spi_flash_sfud.c:43:17:rt_sfud_control	12
+spi_flash_sfud.c:88:18:rt_sfud_read	5
+spi_flash_sfud.c:106:18:rt_sfud_write	5
+spi_flash_sfud.c:127:17:spi_write_read	14
+spi_flash_sfud.c:225:13:spi_lock	4
+spi_flash_sfud.c:236:13:spi_unlock	4
+spi_flash_sfud.c:247:13:retry_delay_100us	1
+spi_flash_sfud.c:252:10:sfud_spi_port_init	2
+spi_flash_sfud.c:298:23:rt_sfud_flash_probe_ex	12
+spi_flash_sfud.c:426:23:rt_sfud_flash_probe	1
+spi_flash_sfud.c:445:10:rt_sfud_flash_delete	3
+spi_flash_sfud.c:463:14:rt_sfud_flash_find	5
+spi_flash_sfud.c:488:14:rt_sfud_flash_find_by_dev_name	4
+spi_flash_sfud.c:515:13:sf	52

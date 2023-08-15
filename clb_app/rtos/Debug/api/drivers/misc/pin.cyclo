@@ -1,0 +1,11 @@
+pin.c:18:18:_pin_read	4
+pin.c:33:18:_pin_write	4
+pin.c:49:18:_pin_control	3
+pin.c:77:5:rt_device_pin_register	1
+pin.c:103:10:rt_pin_attach_irq	3
+pin.c:113:10:rt_pin_detach_irq	3
+pin.c:123:10:rt_pin_irq_enable	3
+pin.c:134:6:rt_pin_mode	2
+pin.c:141:6:rt_pin_write	2
+pin.c:148:6:rt_pin_read	2
+pin.c:155:11:rt_pin_get	4

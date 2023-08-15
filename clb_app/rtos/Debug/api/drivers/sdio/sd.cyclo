@@ -1,0 +1,14 @@
+mmcsd_host.h:110:16:mmcsd_delay_ms	2
+sd.c:45:23:GET_BITS	3
+sd.c:62:19:mmcsd_parse_csd	3
+sd.c:137:19:mmcsd_parse_scr	1
+sd.c:150:19:mmcsd_switch	12
+sd.c:250:17:mmcsd_app_cmd	5
+sd.c:281:10:mmcsd_send_app_cmd	8
+sd.c:337:10:mmcsd_app_set_bus_width	4
+sd.c:366:10:mmcsd_send_app_op_cond	10
+sd.c:421:10:mmcsd_send_if_cond	5
+sd.c:446:10:mmcsd_get_card_addr	2
+sd.c:472:12:mmcsd_get_scr	4
+sd.c:515:19:mmcsd_sd_init_card	22
+sd.c:646:12:init_sd	7

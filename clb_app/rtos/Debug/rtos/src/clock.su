@@ -1,0 +1,5 @@
+../rtos/src/clock.c:39:11:rt_tick_get	4	static
+../rtos/src/clock.c:49:6:rt_tick_set	24	static
+../rtos/src/clock.c:62:6:rt_tick_increase	16	static
+../rtos/src/clock.c:101:11:rt_tick_from_millisecond	24	static
+../rtos/src/clock.c:125:19:rt_tick_get_millisecond	8	static

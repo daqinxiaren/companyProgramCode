@@ -1,0 +1,2 @@
+../lib/newlib/stdio.c:22:5:libc_stdio_set_console	56	static
+../lib/newlib/stdio.c:75:5:libc_stdio_get_console	8	static

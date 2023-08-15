@@ -1,0 +1,4 @@
+drv_clk.c:195:6:system_clock_config	3
+drv_clk.c:297:6:SystemClock_Config	4
+drv_clk.c:422:5:clock_information	1
+drv_clk.c:457:6:clk_init	1

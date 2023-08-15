@@ -1,0 +1,8 @@
+from building import *
+
+cwd     = GetCurrentDir()
+src     = Glob('*.c')
+CPPPATH = [cwd + '/../include']
+group   = DefineGroup('DeviceDrivers', src, depend = ['ENABLE_CAN'], CPPPATH = CPPPATH)
+
+Return('group')

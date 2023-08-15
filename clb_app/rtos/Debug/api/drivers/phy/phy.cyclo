@@ -1,0 +1,3 @@
+phy.c:23:18:phy_device_read	1
+phy.c:29:18:phy_device_write	1
+phy.c:53:10:rt_hw_phy_register	1

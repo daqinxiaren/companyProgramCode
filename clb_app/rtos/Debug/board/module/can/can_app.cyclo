@@ -1,0 +1,13 @@
+can_app.c:149:17:app_can_qzq_get_id	1
+can_app.c:159:6:app_can_qzq_clean_id	1
+can_app.c:169:6:config_qzq_id	1
+can_app.c:182:6:proximitor_data_init	1
+can_app.c:215:6:can_init	1
+can_app.c:253:6:printf_proximitor_data	2
+can_app.c:293:6:rx_deal	17
+can_app.c:391:6:can_lh_send	7
+can_app.c:439:13:can_lh_cmd	3
+can_app.c:475:6:can_lh_send_reset	1
+can_app.c:510:6:can_lh_send_set_dev_id	1
+can_app.c:524:6:send_radio_getid	1
+can_app.c:531:6:proximitor_cmd	12

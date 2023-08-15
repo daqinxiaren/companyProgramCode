@@ -1,0 +1,14 @@
+E:/Program/STM32CubeIDE/clb_app/rtos/api/api/include/drivers/mmcsd_host.h:110:16:mmcsd_delay_ms	16	static
+../api/drivers/sdio/sd.c:45:23:GET_BITS	48	static
+../api/drivers/sdio/sd.c:62:19:mmcsd_parse_csd	24	static
+../api/drivers/sdio/sd.c:137:19:mmcsd_parse_scr	40	static
+../api/drivers/sdio/sd.c:150:19:mmcsd_switch	128	static
+../api/drivers/sdio/sd.c:250:17:mmcsd_app_cmd	64	static
+../api/drivers/sdio/sd.c:281:10:mmcsd_send_app_cmd	48	static
+../api/drivers/sdio/sd.c:337:10:mmcsd_app_set_bus_width	64	static
+../api/drivers/sdio/sd.c:366:10:mmcsd_send_app_op_cond	80	static
+../api/drivers/sdio/sd.c:421:10:mmcsd_send_if_cond	72	static
+../api/drivers/sdio/sd.c:446:10:mmcsd_get_card_addr	64	static
+../api/drivers/sdio/sd.c:472:12:mmcsd_get_scr	120	static
+../api/drivers/sdio/sd.c:515:19:mmcsd_sd_init_card	48	static
+../api/drivers/sdio/sd.c:646:12:init_sd	24	static

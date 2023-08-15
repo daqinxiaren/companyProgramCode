@@ -1,0 +1,12 @@
+../fs/dfs/src/dfs.c:51:5:dfs_init	16	static
+../fs/dfs/src/dfs.c:99:6:dfs_lock	16	static
+../fs/dfs/src/dfs.c:119:6:dfs_unlock	8	static
+../fs/dfs/src/dfs.c:124:12:fd_alloc	40	static
+../fs/dfs/src/dfs.c:178:5:fd_new	24	static
+../fs/dfs/src/dfs.c:217:16:fd_get	24	static
+../fs/dfs/src/dfs.c:254:6:fd_put	24	static
+../fs/dfs/src/dfs.c:291:5:fd_is_open	40	static
+../fs/dfs/src/dfs.c:351:13:dfs_subdir	32	static
+../fs/dfs/src/dfs.c:377:7:dfs_normalize_path	56	static
+../fs/dfs/src/dfs.c:505:21:dfs_fdtable_get	16	static
+../fs/dfs/src/dfs.c:525:5:list_fd	24	static

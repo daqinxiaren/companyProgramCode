@@ -1,0 +1,6 @@
+sfud_sfdp.c:80:6:sfud_read_sfdp	3
+sfud_sfdp.c:100:13:read_sfdp_header	7
+sfud_sfdp.c:144:13:read_basic_header	4
+sfud_sfdp.c:187:13:read_basic_table	25
+sfud_sfdp.c:337:17:read_sfdp_data	1
+sfud_sfdp.c:363:8:sfud_sfdp_get_suitable_eraser	6

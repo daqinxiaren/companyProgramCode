@@ -1,0 +1,6 @@
+../usr/finsh/finsh_var.c:18:5:finsh_var_init	8	static
+../usr/finsh/finsh_var.c:25:5:finsh_var_insert	24	static
+../usr/finsh/finsh_var.c:53:5:finsh_var_delete	24	static
+../usr/finsh/finsh_var.c:71:19:finsh_var_lookup	24	static
+../usr/finsh/finsh_var.c:88:6:finsh_sysvar_append	32	static
+../usr/finsh/finsh_var.c:114:22:finsh_sysvar_lookup	32	static

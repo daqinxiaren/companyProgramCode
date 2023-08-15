@@ -1,0 +1,13 @@
+../api/drivers/serial/serial.c:211:15:_serial_poll_rx	32	static
+../api/drivers/serial/serial.c:236:15:_serial_poll_tx	32	static
+../api/drivers/serial/serial.c:265:15:_serial_int_rx	40	static
+../api/drivers/serial/serial.c:313:15:_serial_int_tx	32	static
+../api/drivers/serial/serial.c:351:13:_serial_check_buffer_size	8	static
+../api/drivers/serial/serial.c:572:17:rt_serial_init	24	static
+../api/drivers/serial/serial.c:591:17:rt_serial_open	32	static
+../api/drivers/serial/serial.c:737:17:rt_serial_close	32	static
+../api/drivers/serial/serial.c:826:18:rt_serial_read	32	static
+../api/drivers/serial/serial.c:852:18:rt_serial_write	32	static
+../api/drivers/serial/serial.c:977:17:rt_serial_control	40	static
+../api/drivers/serial/serial.c:1156:10:rt_hw_serial_register	32	static
+../api/drivers/serial/serial.c:1195:6:rt_hw_serial_isr	40	static

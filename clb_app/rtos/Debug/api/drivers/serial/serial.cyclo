@@ -1,0 +1,13 @@
+serial.c:211:15:_serial_poll_rx	6
+serial.c:236:15:_serial_poll_tx	5
+serial.c:265:15:_serial_int_rx	8
+serial.c:313:15:_serial_int_tx	8
+serial.c:351:13:_serial_check_buffer_size	2
+serial.c:572:17:rt_serial_init	3
+serial.c:591:17:rt_serial_open	20
+serial.c:737:17:rt_serial_close	7
+serial.c:826:18:rt_serial_read	4
+serial.c:852:18:rt_serial_write	4
+serial.c:977:17:rt_serial_control	10
+serial.c:1156:10:rt_hw_serial_register	2
+serial.c:1195:6:rt_hw_serial_isr	11

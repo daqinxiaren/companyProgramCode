@@ -1,0 +1,11 @@
+../board/app/app_channel_switch/app_channel_switch.c:28:19:app_channel_adg1608_get_select	4	static
+../board/app/app_channel_switch/app_channel_switch.c:38:7:app_channel_pin_init	4	static
+../board/app/app_channel_switch/app_channel_switch.c:60:7:app_adg1608_set_output	16	static
+../board/app/app_channel_switch/app_channel_switch.c:75:7:app_adg1609_set_output	16	static
+../board/app/app_channel_switch/app_channel_switch.c:90:7:app_adg1608_channel_set	16	static
+../board/app/app_channel_switch/app_channel_switch.c:165:7:app_adg1609_channel_set	16	static
+../board/app/app_channel_switch/app_channel_switch.c:211:7:app_channel_axle_box_set	16	static
+../board/app/app_channel_switch/app_channel_switch.c:225:7:app_channel_motor_gear_set	16	static
+../board/app/app_channel_switch/app_channel_switch.c:238:7:app_channel_wave_set	16	static
+../board/app/app_channel_switch/app_channel_switch.c:251:7:app_channel_adg1608_init	8	static
+../board/app/app_channel_switch/app_channel_switch.c:272:7:app_channel_adg1608_switch_all	16	static

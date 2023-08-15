@@ -1,0 +1,4 @@
+../bsp/stm32/drivers/drv_flash/drv_flash_f4.c:58:20:GetSector	24	static
+../bsp/stm32/drivers/drv_flash/drv_flash_f4.c:181:5:stm32_flash_read	32	static
+../bsp/stm32/drivers/drv_flash/drv_flash_f4.c:210:5:stm32_flash_write	64	static
+../bsp/stm32/drivers/drv_flash/drv_flash_f4.c:309:5:stm32_flash_erase	56	static

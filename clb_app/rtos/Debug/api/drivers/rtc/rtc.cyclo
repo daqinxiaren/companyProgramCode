@@ -1,0 +1,4 @@
+rtc.c:42:10:set_date	2
+rtc.c:92:10:set_time	2
+rtc.c:177:6:list_date	1
+rtc.c:190:13:date	12

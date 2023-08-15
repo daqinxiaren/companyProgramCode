@@ -1,0 +1,9 @@
+from building import *
+
+cwd     = GetCurrentDir()
+src     = Glob('*.c')
+CPPPATH = [cwd]
+
+group = DefineGroup('Filesystem', src, depend = ['ENABLE_DFS', 'ENABLE_MEMHEAP', 'ENABLE_DFS_RAMFS'], CPPPATH = CPPPATH)
+
+Return('group')

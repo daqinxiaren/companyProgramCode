@@ -1,0 +1,4 @@
+../board/lh/algorithm/fft.c:8350:17:fft_create	16	static
+../board/lh/algorithm/fft.c:8390:5:fft_init	16	static
+../board/lh/algorithm/fft.c:8447:6:fft	56	static
+../board/lh/algorithm/fft.c:8542:6:fft_destroy	16	static

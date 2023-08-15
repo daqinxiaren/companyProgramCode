@@ -1,0 +1,4 @@
+../board/module/led/led.c:163:6:led_init	8	static
+../board/module/led/led.c:198:9:v1_test	16	static
+../board/module/led/led.c:206:9:v2_test	16	static
+../board/module/led/led.c:214:6:led_contol	16	static

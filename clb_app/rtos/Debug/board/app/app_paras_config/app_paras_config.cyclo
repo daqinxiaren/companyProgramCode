@@ -1,0 +1,8 @@
+app_paras_save.h:69:24:app_paras_get	1
+app_paras_config.c:35:6:app_paras_config_get_mcu_sn	2
+app_paras_config.c:50:6:app_paras_config_msg_send	3
+app_paras_config.c:76:20:app_paras_config_broadcast_ack	1
+app_paras_config.c:123:20:app_paras_config_ack	1
+app_paras_config.c:154:20:app_paras_config_inform	10
+app_paras_config.c:216:6:app_paras_config_get_data	9
+app_paras_config.c:272:6:app_paras_config_init	1

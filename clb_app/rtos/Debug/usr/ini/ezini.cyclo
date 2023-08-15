@@ -1,0 +1,13 @@
+ezini.c:164:5:AddEntryToList	11
+ezini.c:275:6:FreeList	4
+ezini.c:322:5:MakeINIFile	7
+ezini.c:399:5:AddEntryToFile	8
+ezini.c:500:5:DeleteEntryFromFile	9
+ezini.c:590:5:GetEntryFromFile	18
+ezini.c:751:24:NewKeyList	4
+ezini.c:814:28:NewSectionList	4
+ezini.c:865:13:FreeKeyList	2
+ezini.c:893:13:FreeEntry	1
+ezini.c:916:14:SkipWS	2
+ezini.c:945:14:DupStr	3
+ezini.c:983:14:GetLine	7

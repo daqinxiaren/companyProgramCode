@@ -1,0 +1,10 @@
+E:/Program/STM32CubeIDE/clb_app/rtos/board/app/app_paras_save/app_paras_save.h:69:24:app_paras_get	4	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:40:6:app_scast_send_setaddr	24	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:52:6:app_singlecast_send	24	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:69:13:app_singlecast_send_thread_create	4	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:80:13:app_singlecast_send_thread_init	8	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:94:13:singlecast_recv_thread_entry	72	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:150:13:app_singlecast_recv_thread_create	16	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:170:13:app_singlecast_recv_thread_init	48	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:195:6:app_singlecast_thread_create	8	static
+../board/app/app_singlecast_thread/app_singlecast_thread.c:207:6:app_singlecast_thread_init	8	static

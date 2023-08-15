@@ -1,0 +1,9 @@
+rtservice.h:47:16:rt_list_init	1
+waitqueue.h:35:16:rt_wqueue_init	2
+pipe.c:323:11:rt_pipe_open	4
+pipe.c:351:11:rt_pipe_close	3
+pipe.c:369:11:rt_pipe_read	5
+pipe.c:397:11:rt_pipe_write	5
+pipe.c:425:11:rt_pipe_control	1
+pipe.c:442:12:rt_pipe_create	4
+pipe.c:487:5:rt_pipe_delete	5

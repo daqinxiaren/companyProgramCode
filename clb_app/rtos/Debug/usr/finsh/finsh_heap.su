@@ -1,0 +1,8 @@
+../usr/finsh/finsh_heap.c:36:5:finsh_heap_init	8	static
+../usr/finsh/finsh_heap.c:54:7:finsh_heap_allocate	24	static
+../usr/finsh/finsh_heap.c:96:7:finsh_heap_free	24	static
+../usr/finsh/finsh_heap.c:114:13:finsh_heap_gc	24	static
+../usr/finsh/finsh_heap.c:147:6:finsh_block_insert	24	static
+../usr/finsh/finsh_heap.c:186:6:finsh_block_remove	24	static
+../usr/finsh/finsh_heap.c:213:6:finsh_block_split	24	static
+../usr/finsh/finsh_heap.c:229:6:finsh_block_merge	24	static

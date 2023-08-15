@@ -1,0 +1,3 @@
+../board/app/app_data_save/app_temp_save.c:38:13:temp_save_thread_entry	248	static
+../board/app/app_data_save/app_temp_save.c:118:6:app_temp_save_thread_create	16	static
+../board/app/app_data_save/app_temp_save.c:138:6:app_temp_save_thread_init	4	static

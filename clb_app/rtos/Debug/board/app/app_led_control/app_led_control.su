@@ -1,0 +1,5 @@
+../board/app/app_led_control/app_led_control.c:33:13:app_led_control_constant_on	8	static
+../board/app/app_led_control/app_led_control.c:45:6:app_led_control_constant_off	8	static
+../board/app/app_led_control/app_led_control.c:57:13:app_led_control_thread_entry	16	static
+../board/app/app_led_control/app_led_control.c:76:6:app_led_control_thread_create	16	static
+../board/app/app_led_control/app_led_control.c:100:6:app_led_control_thread_init	8	static

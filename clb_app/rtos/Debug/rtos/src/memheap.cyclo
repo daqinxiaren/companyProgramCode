@@ -1,0 +1,11 @@
+memheap.c:50:10:rt_memheap_init	2
+memheap.c:124:10:rt_memheap_detach	4
+memheap.c:138:7:rt_memheap_alloc	13
+memheap.c:284:7:rt_memheap_realloc	17
+memheap.c:495:6:rt_memheap_free	11
+memheap.c:601:6:rt_system_heap_init	1
+memheap.c:610:7:rt_malloc	8
+memheap.c:650:6:rt_free	1
+memheap.c:656:7:rt_realloc	8
+memheap.c:698:7:rt_calloc	2
+memheap.c:715:6:rt_memory_info	4

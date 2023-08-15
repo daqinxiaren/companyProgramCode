@@ -1,0 +1,5 @@
+watchdog.c:19:17:rt_watchdog_init	3
+watchdog.c:33:17:rt_watchdog_open	1
+watchdog.c:38:17:rt_watchdog_close	3
+watchdog.c:55:17:rt_watchdog_control	2
+watchdog.c:82:10:rt_hw_watchdog_register	2

@@ -1,0 +1,2 @@
+../board/app/app_timer/app_timer.c:33:17:app_timer_timeout_cb	16	static
+../board/app/app_timer/app_timer.c:88:5:app_timer_init	16	static

@@ -1,0 +1,17 @@
+shell.c:78:5:finsh_set_prompt	4
+shell.c:104:13:finsh_get_prompt	4
+shell.c:146:13:finsh_get_prompt_mode	2
+shell.c:161:6:finsh_set_prompt_mode	2
+shell.c:167:12:finsh_getchar	3
+shell.c:188:17:finsh_rx_ind	2
+shell.c:205:6:finsh_set_device	6
+shell.c:246:13:finsh_get_device	2
+shell.c:262:6:finsh_set_echo	2
+shell.c:275:13:finsh_get_echo	2
+shell.c:373:13:shell_auto_complete	2
+shell.c:441:18:shell_handle_history	1
+shell.c:458:13:shell_push_history	7
+shell.c:500:6:finsh_thread_entry	36
+shell.c:763:6:finsh_system_function_init	1
+shell.c:769:6:finsh_system_var_init	1
+shell.c:814:5:finsh_system_init	4

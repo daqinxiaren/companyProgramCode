@@ -1,0 +1,13 @@
+../api/api/src/ringbuffer.c:17:36:rt_ringbuffer_status	16	static
+../api/api/src/ringbuffer.c:29:6:rt_ringbuffer_init	24	static
+../api/api/src/ringbuffer.c:49:11:rt_ringbuffer_put	40	static
+../api/api/src/ringbuffer.c:98:11:rt_ringbuffer_put_force	40	static
+../api/api/src/ringbuffer.c:152:11:rt_ringbuffer_get	40	static
+../api/api/src/ringbuffer.c:199:11:rt_ringbuffer_peak	24	static
+../api/api/src/ringbuffer.c:233:11:rt_ringbuffer_putchar	24	static
+../api/api/src/ringbuffer.c:263:11:rt_ringbuffer_putchar_force	24	static
+../api/api/src/ringbuffer.c:298:11:rt_ringbuffer_getchar	16	static
+../api/api/src/ringbuffer.c:326:11:rt_ringbuffer_data_len	16	static
+../api/api/src/ringbuffer.c:347:6:rt_ringbuffer_reset	16	static
+../api/api/src/ringbuffer.c:360:23:rt_ringbuffer_create	24	static
+../api/api/src/ringbuffer.c:387:6:rt_ringbuffer_destroy	16	static

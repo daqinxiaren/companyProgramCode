@@ -1,0 +1,4 @@
+bsp_internal_led_control.c:26:6:bsp_internal_led_contol	5
+bsp_internal_led_control.c:58:6:bsp_internal_led_init	10
+bsp_internal_led_control.c:118:6:bsp_internal_led_on	1
+bsp_internal_led_control.c:130:6:bsp_internal_led_off	1

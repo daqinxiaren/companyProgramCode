@@ -1,0 +1,14 @@
+../usr/finsh/msh_file.c:19:12:msh_readline	32	static
+../usr/finsh/msh_file.c:59:5:msh_exec_script	64	static
+../usr/finsh/msh_file.c:149:5:cmd_ls	16	static
+../usr/finsh/msh_file.c:170:5:cmd_cp	16	static
+../usr/finsh/msh_file.c:188:5:cmd_mv	48	static
+../usr/finsh/msh_file.c:247:5:cmd_cat	24	static
+../usr/finsh/msh_file.c:268:13:directory_delete_for_msh	32	static
+../usr/finsh/msh_file.c:332:5:cmd_rm	120	static
+../usr/finsh/msh_file.c:398:5:cmd_cd	16	static
+../usr/finsh/msh_file.c:416:5:cmd_pwd	16	static
+../usr/finsh/msh_file.c:424:5:cmd_mkdir	16	static
+../usr/finsh/msh_file.c:440:5:cmd_mkfs	24	static
+../usr/finsh/msh_file.c:473:5:cmd_df	16	static
+../usr/finsh/msh_file.c:495:5:cmd_echo	32	static

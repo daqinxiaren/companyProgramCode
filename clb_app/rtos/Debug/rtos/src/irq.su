@@ -1,0 +1,5 @@
+../rtos/src/irq.c:28:6:rt_interrupt_enter_sethook	16	static
+../rtos/src/irq.c:38:6:rt_interrupt_leave_sethook	16	static
+../rtos/src/irq.c:65:6:rt_interrupt_enter	16	static
+../rtos/src/irq.c:86:6:rt_interrupt_leave	16	static
+../rtos/src/irq.c:108:20:rt_interrupt_get_nest	16	static

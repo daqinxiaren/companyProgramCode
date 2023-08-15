@@ -1,0 +1,1 @@
+../rtos/libcpu/arm/common/backtrace.c:32:6:rt_hw_backtrace	32	static
